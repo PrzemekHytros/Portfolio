@@ -9,6 +9,9 @@ Thanks to many years of work in customer service, I have gained high interperson
 # Tech skills
 - ISTQB knowledge
 - Software testing
+- DevTools
+- Creating Test Cases
+- Reporting bugs
 
 # Courses
 - Coders Lab - Tester manualny, teoria i praktyka
@@ -16,3 +19,5 @@ Thanks to many years of work in customer service, I have gained high interperson
 
 # My test case examples
 - Static testing of myStore technical documentation
+
+# My bug reports
