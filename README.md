@@ -12,4 +12,7 @@ Thanks to many years of work in customer service, I have gained high interperson
 
 # Courses
 - Coders Lab - Tester manualny, teoria i praktyka
-- Devmentor - Html i CSS: Podstwy tworzenia responsywnych stron www
+- Devmentor - Html i CSS: Podstwy tworzenia responsywnych stron 
+
+# My test case examples
+- Static testing of myStore technical documentation
