@@ -21,3 +21,7 @@ Thanks to many years of work in customer service, I have gained high interperson
 - Static testing of myStore technical documentation
 
 # My bug reports
+
+# Books
+
+# Facebook gropus
