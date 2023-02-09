@@ -12,6 +12,7 @@ Thanks to many years of work in customer service, I have gained high interperson
 - DevTools
 - Creating Test Cases
 - Reporting bugs
+- Exploratory tests
 
 # Courses
 - Coders Lab - Tester manualny, teoria i praktyka
