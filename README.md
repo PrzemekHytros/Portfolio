@@ -5,6 +5,7 @@ Thanks to many years of work in customer service, I have gained high interperson
 
 # Tools
 - JIRA
+- MySQL Workbench
 
 # Tech skills
 - ISTQB knowledge
