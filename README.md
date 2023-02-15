@@ -14,6 +14,7 @@ Thanks to many years of work in customer service, I have gained high interperson
 - Creating Test Cases
 - Reporting bugs
 - Exploratory tests
+- working with databases: downloading data from tables, joining tables, creating databases
 
 # Courses
 - Coders Lab - Tester manualny, teoria i praktyka
