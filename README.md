@@ -13,8 +13,9 @@ Thanks to many years of work in customer service, I have gained high interperson
 - DevTools
 - Creating Test Cases
 - Reporting bugs
+- Soap and API basics
 - Exploratory tests
-- working with databases: downloading data from tables, joining tables, creating databases
+- Databases basics
 
 # Courses
 - Coders Lab - Tester manualny, teoria i praktyka
