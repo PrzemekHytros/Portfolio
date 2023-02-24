@@ -6,6 +6,10 @@ Thanks to many years of work in customer service, I have gained high interperson
 # Tools
 - JIRA
 - MySQL Workbench
+- SoapUI
+- Postman
+- VisualCode
+- Git
 
 # Tech skills
 - ISTQB knowledge
