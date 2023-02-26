@@ -34,7 +34,14 @@ Thanks to many years of work in customer service, I have gained high interperson
 - [Test case 3](https://docs.google.com/document/d/1KWK6MiFAs7no76ezS3YDc5m3RZ840uDj/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
 
 # My bug reports
+- Sample 1
+- Sample 2
+- Sample 3
 
 # Books
+- ["Ścieżka testera. Certyfikat ISTQB w pytaniach i odpowiedziach"](https://helion.pl/ksiazki/sciezka-testera-certyfikat-istqb-w-pytaniach-i-odpowiedziach-rafal-podraza,istqbw.htm#format/d)
+- ["Certyfikowany tester ISTQB. Poziom podstawowy"]("https://helion.pl/ksiazki/certyfikowany-tester-istqb-poziom-podstawowy-adam-roman-lucjan-stapp,ctispv.htm#format/d)
+- ["Zawód tester. Od decyzji do zdobycia doświadczenia"](https://ksiegarnia.pwn.pl/Zawod-tester.-Od-decyzji-do-zdobycia-doswiadczenia,743423772,p.html)
+- ["Język SQL. Przyjazny podręcznik."](https://helion.pl/ksiazki/jezyk-sql-przyjazny-podrecznik-wydanie-ii-larry-rockoff,jsqlp2.htm#format/e)
 
 # Facebook gropus
