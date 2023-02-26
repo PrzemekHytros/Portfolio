@@ -26,12 +26,12 @@ Thanks to many years of work in customer service, I have gained high interperson
 - Devmentor - Html i CSS: Podstwy tworzenia responsywnych stron 
 
 # My test Plans Examples
-  - [MyStore exploratory testing](https://docs.google.com/document/d/1iAlybviEpG_kO58aSU3WZs8WbCB2EGkm/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
+  - [MyStore exploratory testing](https://docs.google.com/document/d/1kCfJZI4sADOXZeEOjKkNIdZq8siNnJJz/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
 
 # My test case examples
-- [Test case 1]
-- [Test case 2]
-- [Test case 3]
+- [Test case 1](https://docs.google.com/document/d/1etviyPWp0bl6ZKh3h_9mijTfiMhO0wjw/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
+- [Test case 2](https://docs.google.com/document/d/1coStaeEgr6QzKIGXQVslWSEY9zzXOxhg/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
+- [Test case 3](https://docs.google.com/document/d/1KWK6MiFAs7no76ezS3YDc5m3RZ840uDj/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
 
 # My bug reports
 
