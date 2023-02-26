@@ -1,5 +1,5 @@
 # Portfolio
-My Tester's Portfolio (in the making)
+
 # About me
 Thanks to many years of work in customer service, I have gained high interpersonal skills. Due to life changes, I became interested in the IT industry, specifically in Software Testing. I decided to take accredited ISTQB training and practical training in the field of Manual Testing and gain professional experience.
 
@@ -25,8 +25,11 @@ Thanks to many years of work in customer service, I have gained high interperson
 - Coders Lab - Tester manualny, teoria i praktyka
 - Devmentor - Html i CSS: Podstwy tworzenia responsywnych stron 
 
+# My test Plans Examples
+  -
+
 # My test case examples
-- Static testing of myStore technical documentation
+- [Mystore exploratory testing](https://docs.google.com/document/d/1iAlybviEpG_kO58aSU3WZs8WbCB2EGkm/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
 
 # My bug reports
 
