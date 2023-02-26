@@ -40,7 +40,7 @@ Thanks to many years of work in customer service, I have gained high interperson
 
 # Books
 - ["Ścieżka testera. Certyfikat ISTQB w pytaniach i odpowiedziach"](https://helion.pl/ksiazki/sciezka-testera-certyfikat-istqb-w-pytaniach-i-odpowiedziach-rafal-podraza,istqbw.htm#format/d)
-- ["Certyfikowany tester ISTQB. Poziom podstawowy"]("https://helion.pl/ksiazki/certyfikowany-tester-istqb-poziom-podstawowy-adam-roman-lucjan-stapp,ctispv.htm#format/d)
+- ["Certyfikowany tester ISTQB. Poziom podstawowy"](https://ksiegarnia.pwn.pl/Zawod-tester.-Od-decyzji-do-zdobycia-doswiadczenia,743423772,p.html)
 - ["Zawód tester. Od decyzji do zdobycia doświadczenia"](https://ksiegarnia.pwn.pl/Zawod-tester.-Od-decyzji-do-zdobycia-doswiadczenia,743423772,p.html)
 - ["Język SQL. Przyjazny podręcznik."](https://helion.pl/ksiazki/jezyk-sql-przyjazny-podrecznik-wydanie-ii-larry-rockoff,jsqlp2.htm#format/e)
 
