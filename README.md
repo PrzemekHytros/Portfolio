@@ -34,9 +34,9 @@ Thanks to many years of work in customer service, I have gained high interperson
 - [Test case 3](https://docs.google.com/document/d/1KWK6MiFAs7no76ezS3YDc5m3RZ840uDj/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
 
 # My bug reports
-- Sample 1
-- Sample 2
-- Sample 3
+- [Sample 1](https://docs.google.com/document/d/12xwMuuMK9NFBnQLK-tiVfhSw5eqZXKDc/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
+- [Sample 2](https://docs.google.com/document/d/1JOGjFObVi5Zqc0iWEe0AQrH6wXjEltRK/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
+- [Sample 3](https://docs.google.com/document/d/114ed9DAIs8yoAQt0zDbq-rUoK92wEIjg/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
 
 # Books
 - ["Ścieżka testera. Certyfikat ISTQB w pytaniach i odpowiedziach"](https://helion.pl/ksiazki/sciezka-testera-certyfikat-istqb-w-pytaniach-i-odpowiedziach-rafal-podraza,istqbw.htm#format/d)
