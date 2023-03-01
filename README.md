@@ -39,7 +39,7 @@ Thanks to many years of work in customer service, I have gained high interperson
 - [Sample 3](https://docs.google.com/document/d/114ed9DAIs8yoAQt0zDbq-rUoK92wEIjg/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
 
 # My Website projects:
-- [Responsive website](https://github.com/PrzemekHytros/Responsywna-strona-internetowa)
+- [Responsive website with javascript elements](https://github.com/PrzemekHytros/Responsywna-strona-internetowa)
 
 # Books
 - ["Ścieżka testera. Certyfikat ISTQB w pytaniach i odpowiedziach"](https://helion.pl/ksiazki/sciezka-testera-certyfikat-istqb-w-pytaniach-i-odpowiedziach-rafal-podraza,istqbw.htm#format/d)
