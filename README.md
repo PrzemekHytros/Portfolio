@@ -38,6 +38,9 @@ Thanks to many years of work in customer service, I have gained high interperson
 - [Sample 2](https://docs.google.com/document/d/1JOGjFObVi5Zqc0iWEe0AQrH6wXjEltRK/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
 - [Sample 3](https://docs.google.com/document/d/114ed9DAIs8yoAQt0zDbq-rUoK92wEIjg/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
 
+# My Website projects:
+- [Responsive website](https://github.com/PrzemekHytros/Responsywna-strona-internetowa)
+
 # Books
 - ["Ścieżka testera. Certyfikat ISTQB w pytaniach i odpowiedziach"](https://helion.pl/ksiazki/sciezka-testera-certyfikat-istqb-w-pytaniach-i-odpowiedziach-rafal-podraza,istqbw.htm#format/d)
 - ["Certyfikowany tester ISTQB. Poziom podstawowy"](https://ksiegarnia.pwn.pl/Zawod-tester.-Od-decyzji-do-zdobycia-doswiadczenia,743423772,p.html)
@@ -45,3 +48,4 @@ Thanks to many years of work in customer service, I have gained high interperson
 - ["Język SQL. Przyjazny podręcznik."](https://helion.pl/ksiazki/jezyk-sql-przyjazny-podrecznik-wydanie-ii-larry-rockoff,jsqlp2.htm#format/e)
 
 # Facebook gropus
+- [Testowanie oprogramowania](https://www.facebook.com/groups/141683635854223)
