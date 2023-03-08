@@ -38,12 +38,12 @@ professional experience in this direction
 - [Test case 3](https://docs.google.com/document/d/1KWK6MiFAs7no76ezS3YDc5m3RZ840uDj/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
 
 # My bug reports
-- [Sample 1](https://docs.google.com/document/d/12xwMuuMK9NFBnQLK-tiVfhSw5eqZXKDc/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
-- [Sample 2](https://docs.google.com/document/d/1JOGjFObVi5Zqc0iWEe0AQrH6wXjEltRK/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
-- [Sample 3](https://docs.google.com/document/d/114ed9DAIs8yoAQt0zDbq-rUoK92wEIjg/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
-
+- [Bug Sample 1](https://drive.google.com/file/d/1V74Om3bFXUVYOmYEqK10_ZMdvT1CNdda/view?usp=sharing)
+- [Bug Sample 2](https://drive.google.com/file/d/19VulKn1XqxHqwAq7JhYjGqeeawhQKhze/view?usp=sharing)
+- [Bug Sample 3](https://drive.google.com/file/d/1AiYehWwOfsfcKSP5WXBumANNz5Bw8Yzp/view?usp=sharing)
 # My Website projects:
 - [Responsive website with javascript elements](https://github.com/PrzemekHytros/Responsywna-strona-internetowa)
+- [Other website elements and projects](https://github.com/PrzemekHytros/Projekty-HTML-i-CSS/tree/master)
 
 # Books
 - ["Ścieżka testera. Certyfikat ISTQB w pytaniach i odpowiedziach"](https://helion.pl/ksiazki/sciezka-testera-certyfikat-istqb-w-pytaniach-i-odpowiedziach-rafal-podraza,istqbw.htm#format/d)
