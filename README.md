@@ -30,8 +30,7 @@ professional experience in this direction
 - Devmentor - Html i CSS: Podstwy tworzenia responsywnych stron 
 
 # My test Plans Examples
-  - [MyStore exploratory testing](https://docs.google.com/document/d/1kCfJZI4sADOXZeEOjKkNIdZq8siNnJJz/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
-
+  - [MyStore exploratory testing](https://drive.google.com/file/d/1e58ih6BMryFCxy7y7n9_W5nRyUJOk2FR/view?usp=sharing)
 # My test case examples
 - [Test case 1](https://docs.google.com/document/d/1etviyPWp0bl6ZKh3h_9mijTfiMhO0wjw/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
 - [Test case 2](https://docs.google.com/document/d/1coStaeEgr6QzKIGXQVslWSEY9zzXOxhg/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
