@@ -32,9 +32,9 @@ professional experience in this direction
 # My test Plans Examples
   - [MyStore exploratory testing](https://drive.google.com/file/d/1e58ih6BMryFCxy7y7n9_W5nRyUJOk2FR/view?usp=sharing)
 # My test case examples
-- [Test case 1](https://docs.google.com/document/d/1etviyPWp0bl6ZKh3h_9mijTfiMhO0wjw/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
-- [Test case 2](https://docs.google.com/document/d/1coStaeEgr6QzKIGXQVslWSEY9zzXOxhg/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
-- [Test case 3](https://docs.google.com/document/d/1KWK6MiFAs7no76ezS3YDc5m3RZ840uDj/edit?usp=sharing&ouid=112051381720325397558&rtpof=true&sd=true)
+- [Test case 1](https://drive.google.com/file/d/1oGZ4jsB7uYDqa8V7kIJbV7TKnaEUerXd/view?usp=sharing)
+- [Test case 2](https://drive.google.com/file/d/1jB0SMRYpdn9vJL3pMml3wI9JP1VosAWh/view?usp=sharing)
+- [Test case 3](https://drive.google.com/file/d/1pNFjxveW90WhWk8MWvhzRxierf9ft_am/view?usp=sharing)
 
 # My bug reports
 - [Bug Sample 1](https://drive.google.com/file/d/1V74Om3bFXUVYOmYEqK10_ZMdvT1CNdda/view?usp=sharing)
