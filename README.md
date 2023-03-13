@@ -41,8 +41,8 @@ professional experience in this direction
 - [Bug Sample 2](https://drive.google.com/file/d/19VulKn1XqxHqwAq7JhYjGqeeawhQKhze/view?usp=sharing)
 - [Bug Sample 3](https://drive.google.com/file/d/1AiYehWwOfsfcKSP5WXBumANNz5Bw8Yzp/view?usp=sharing)
 # My Website projects:
-- [Responsive website with javascript elements](https://github.com/PrzemekHytros/Responsywna-strona-internetowa)
-- [Other website elements and projects](https://github.com/PrzemekHytros/Projekty-HTML-i-CSS/tree/master)
+- [Responsive website with javascript elements](https://github.com/PrzemekHytros/Portfolio-2023/tree/master/html-css/website)
+- [Other website elements and projects](https://github.com/PrzemekHytros/Portfolio-2023/tree/master/html-css/other)
 
 # Books
 - ["Ścieżka testera. Certyfikat ISTQB w pytaniach i odpowiedziach"](https://helion.pl/ksiazki/sciezka-testera-certyfikat-istqb-w-pytaniach-i-odpowiedziach-rafal-podraza,istqbw.htm#format/d)
