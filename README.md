@@ -32,7 +32,7 @@ professional experience in this direction
 # My test Plans Examples
   - [myStore shopping platform dynamic/functional testing](https://drive.google.com/file/d/1vzyPt01zpHbwrYJ3cp8A1bI99uL_h8h8/view?usp=sharing)
 # My test case examples
-- [Test case 1](https://drive.google.com/file/d/1oGZ4jsB7uYDqa8V7kIJbV7TKnaEUerXd/view?usp=sharing)
+- [myStore shopping platform Test Case 1](https://drive.google.com/file/d/142iepME7Wvt8XavHWZ3LIkQ0tDgwBSGV/view?usp=sharing)
 - [Test case 2](https://drive.google.com/file/d/1jB0SMRYpdn9vJL3pMml3wI9JP1VosAWh/view?usp=sharing)
 - [Test case 3](https://drive.google.com/file/d/1pNFjxveW90WhWk8MWvhzRxierf9ft_am/view?usp=sharing)
 
