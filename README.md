@@ -33,7 +33,7 @@ professional experience in this direction
   - [myStore shopping platform dynamic/functional testing](https://drive.google.com/file/d/1vzyPt01zpHbwrYJ3cp8A1bI99uL_h8h8/view?usp=sharing)
 # My test case examples
 - [myStore shopping platform Test Case 1](https://drive.google.com/file/d/142iepME7Wvt8XavHWZ3LIkQ0tDgwBSGV/view?usp=sharing)
-- [myStore shopping platform Test Case 2](https://drive.google.com/file/d/142iepME7Wvt8XavHWZ3LIkQ0tDgwBSGV/view?usp=sharing)
+- [myStore shopping platform Test Case 2](https://drive.google.com/file/d/11y0MbMNan3PmyeZ4ToY4WaxsaDn7bFnR/view?usp=share_link)
 - [Test case 3](https://drive.google.com/file/d/1pNFjxveW90WhWk8MWvhzRxierf9ft_am/view?usp=sharing)
 
 # My bug reports
