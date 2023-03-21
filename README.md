@@ -37,7 +37,7 @@ professional experience in this direction
 - [myStore shopping platform Test Case 3](https://drive.google.com/file/d/1qkQOqSu4CNXBIOv-oAhEINc0hDQ0zRqa/view?usp=sharing)
 
 # My bug reports
-- [Bug Sample 1](https://drive.google.com/file/d/1V74Om3bFXUVYOmYEqK10_ZMdvT1CNdda/view?usp=sharing)
+- [Bug in myStore documentation](https://drive.google.com/file/d/1IDr0QH4BGquyS2bHeczUfIYlIpwNaEDO/view?usp=sharing)
 - [Bug Sample 2](https://drive.google.com/file/d/19VulKn1XqxHqwAq7JhYjGqeeawhQKhze/view?usp=sharing)
 - [Bug Sample 3](https://drive.google.com/file/d/1AiYehWwOfsfcKSP5WXBumANNz5Bw8Yzp/view?usp=sharing)
 # My Website projects:
