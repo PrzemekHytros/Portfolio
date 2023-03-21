@@ -34,7 +34,7 @@ professional experience in this direction
 # My test case examples
 - [myStore shopping platform Test Case 1](https://drive.google.com/file/d/142iepME7Wvt8XavHWZ3LIkQ0tDgwBSGV/view?usp=sharing)
 - [myStore shopping platform Test Case 2](https://drive.google.com/file/d/11y0MbMNan3PmyeZ4ToY4WaxsaDn7bFnR/view?usp=share_link)
-- [Test case 3](https://drive.google.com/file/d/1pNFjxveW90WhWk8MWvhzRxierf9ft_am/view?usp=sharing)
+- [myStore shopping platform Test Case 3](https://drive.google.com/file/d/1qkQOqSu4CNXBIOv-oAhEINc0hDQ0zRqa/view?usp=sharing)
 
 # My bug reports
 - [Bug Sample 1](https://drive.google.com/file/d/1V74Om3bFXUVYOmYEqK10_ZMdvT1CNdda/view?usp=sharing)
