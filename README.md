@@ -37,9 +37,9 @@ professional experience in this direction
 - [myStore shopping platform Test Case 3](https://drive.google.com/file/d/1qkQOqSu4CNXBIOv-oAhEINc0hDQ0zRqa/view?usp=sharing)
 
 # My bug reports
-- [Bug in myStore documentation](https://drive.google.com/file/d/1IDr0QH4BGquyS2bHeczUfIYlIpwNaEDO/view?usp=sharing)
-- [Bug Sample 2](https://drive.google.com/file/d/19VulKn1XqxHqwAq7JhYjGqeeawhQKhze/view?usp=sharing)
-- [Bug Sample 3](https://drive.google.com/file/d/1AiYehWwOfsfcKSP5WXBumANNz5Bw8Yzp/view?usp=sharing)
+- [Bug in myStore platform documentation](https://drive.google.com/file/d/1IDr0QH4BGquyS2bHeczUfIYlIpwNaEDO/view?usp=sharing)
+- [Bug 1 in myStore platform on purchasing process](https://drive.google.com/file/d/1ck-Yew_o25RhcQM8tAMhCvLJZQqdBa2o/view?usp=sharing)
+- [Bug 2 in myStore platform on purchasing process](https://drive.google.com/file/d/1ck-Yew_o25RhcQM8tAMhCvLJZQqdBa2o/view?usp=sharing)
 # My Website projects:
 - [Responsive website with javascript elements](https://github.com/PrzemekHytros/Portfolio-2023/tree/master/html-css/website)
 - [Other website elements and projects](https://github.com/PrzemekHytros/Portfolio-2023/tree/master/html-css/other)
