@@ -37,7 +37,7 @@ professional experience in this direction
 - [myStore shopping platform Test Case 3](https://drive.google.com/file/d/1ck-Yew_o25RhcQM8tAMhCvLJZQqdBa2o/view?usp=sharing)
 
 # My bug reports
-- [Bug in uTest Client's shopping website (on registration process0, Windows 10](https://drive.google.com/file/d/1bQERqcb5VUHGrWwRysnEvDo4phytReFu/view?usp=share_link)
+- [Bug in uTest Client's shopping website (on registration process), Windows 10](https://drive.google.com/file/d/1bQERqcb5VUHGrWwRysnEvDo4phytReFu/view?usp=share_link)
 - [Bug in uTest Client's shopping websitec (on Checkout/Delivery process), Windows 10](https://drive.google.com/file/d/1Rm-SgtkAMYRvnG8BjCWcWcpp4mogsiNf/view?usp=sharing)
 - [Bug in uTest Client's mobile shopping website (content issue), Android 13](https://drive.google.com/file/d/1umYqcc4eCeVfZFCQrrCPovL2mfqfAuWh/view?usp=sharing)
 - [Bug in myStore platform documentation](https://drive.google.com/file/d/1IDr0QH4BGquyS2bHeczUfIYlIpwNaEDO/view?usp=sharing)
