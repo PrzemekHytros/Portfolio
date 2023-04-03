@@ -47,8 +47,8 @@ professional experience in this direction
   - [Downloading data](https://github.com/PrzemekHytros/mySQL/blob/main/downloading%20_data.txt)
 
 # My Website projects:
-- [Responsive website with javascript elements](https://github.com/PrzemekHytros/Portfolio-2023/tree/master/html-css/website)
-- [Other website elements and projects](https://github.com/PrzemekHytros/Portfolio-2023/tree/master/html-css/other)
+- [Responsive website with javascript elements](https://github.com/PrzemekHytros/Portfolio/tree/main/html-css/website)
+- [Other website elements and projects](https://github.com/PrzemekHytros/Portfolio/tree/main/html-css/other)
 
 # Books
 - ["Ścieżka testera. Certyfikat ISTQB w pytaniach i odpowiedziach"](https://helion.pl/ksiazki/sciezka-testera-certyfikat-istqb-w-pytaniach-i-odpowiedziach-rafal-podraza,istqbw.htm#format/d)
