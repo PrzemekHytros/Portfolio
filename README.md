@@ -43,6 +43,9 @@ professional experience in this direction
 - [Bug in myStore platform documentation](https://drive.google.com/file/d/1IDr0QH4BGquyS2bHeczUfIYlIpwNaEDO/view?usp=sharing)
 - [Bug 1 in myStore platform (on purchasing process), Windows 10](https://drive.google.com/file/d/1ck-Yew_o25RhcQM8tAMhCvLJZQqdBa2o/view?usp=sharing)
 
+# My works with relational databases (mySQL):
+  - [Downloading data](https://github.com/PrzemekHytros/mySQL/blob/main/downloading%20_data.txt)
+
 # My Website projects:
 - [Responsive website with javascript elements](https://github.com/PrzemekHytros/Portfolio-2023/tree/master/html-css/website)
 - [Other website elements and projects](https://github.com/PrzemekHytros/Portfolio-2023/tree/master/html-css/other)
