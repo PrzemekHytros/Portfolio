@@ -1,0 +1,255 @@
+
+body {
+background-color: white;
+background-image: url("../img/tlobody0.jpg");
+background-repeat: repeat;
+}
+.page-header {
+margin: auto;
+width: 100%;
+padding-top: 0px;
+padding-bottom: 0px;
+box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
+z-index: 3;
+position: fixed;
+background-color: fffae3;
+background-image: url("../img/tlomenu7.png");
+background-repeat: repeat;
+}
+.container1 {
+margin: auto;
+height: 80px;
+padding-top: 0px;
+margin-top: 0px;
+float: none;
+display: block;
+z-index: 3;
+position: relative;
+}
+#naglowek {
+margin-bottom: 0px;
+font-family: 'Caveat', cursive;
+margin-left: 10px;
+color: white;
+float: left;
+display: block;
+}
+#menu2 {
+font-family: 'Caveat', cursive;
+margin-left: 10px;
+z-index: 2;
+position: relative;
+}
+
+#facebook {
+width: 25px;
+height: 25px;
+}
+h2 {
+font-size: 45px; 
+font-family: 'Caveat', cursive;
+color: black; 
+text-align: center;
+padding-top: 50px; 
+padding-bottom: 0px;
+margin-bottom: 30px;
+margin-top: 0px;
+}
+#main {
+height: 100%px;
+width: 100%px;
+margin: auto;
+background-image: url("../img/tloarticle0.png");
+background-repeat: repeat;
+}
+#tekst {
+margin: auto;
+height: 100%;
+padding-top: 0px;
+padding-bottom: 80px;
+margin-bottom: 50px;
+}
+hr {
+width: 70%;
+size: 10px;
+}
+#powitanie {
+font-family: 'Didact Gothic', sans-serif;  
+font-size: 25px;
+text-align: left;
+line-height: normal;
+color: black;
+margin-top: 0px;
+}
+#powitanie {
+font-family: 'Didact Gothic', sans-serif;  
+font-size: 25px;
+text-align: center;
+line-height: normal;
+color: black;
+}
+
+#footer {
+width: 100%px;
+height: 350px;
+padding-top: 0px; 
+padding-bottom: 0px;
+margin: auto;
+background-image: url("../img/kokpit2.png");
+background-repeat: repeat;
+}
+#copyr {
+font-family: 'Didact Gothic', sans-serif; 
+font-size: 20px; 
+color: black; 
+text-align: center; 
+word-spacing: 0px;
+padding-top: 40PX;
+padding-bottom: 0px;
+margin-top: 0px;
+}
+nav::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+    position: relative;
+	
+}
+
+nav ul li a {
+	display: block;
+	color: black;
+	text-decoration: none;
+	padding: 1rem 2rem;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	transition: all .3s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+	background: rgba(0, 0, 0, .15);
+}
+
+nav ul li a:focus {
+	color: white;
+}
+
+nav ul li a:not(:only-child)::after {
+	padding-left: 4px;
+	content: ' ▾';
+}
+
+nav ul li ul li {
+	min-width: 190px;
+}
+
+nav ul li ul li a {
+	background: transparent;
+	color: #555;
+	border-bottom: 1px solid #DDE0E7;
+}
+
+nav ul li ul li a:hover,
+nav ul li ul li a:focus {
+	background: #eee;
+	color: #111;
+}
+
+.dropdown {
+	display: none;
+	position: absolute;
+	background: white;
+	box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
+}
+@media screen and (min-width: 300px) {
+    #powitanie{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #powitanie{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 300px) {
+    #naglowek{
+        font-size: 30px;
+        padding-top: 35px; 
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #naglowek{
+        font-size: 60px;
+        padding-top: 10px;
+    }
+}
+@media screen and (min-width: 300px) {
+    #menu2{
+        font-size: 15px;
+        padding-top: 25px; 
+    }
+}
+@media screen and (min-width: 1024px) {
+    #menu2{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+}
+@media screen and (min-width: 300px) {
+    #tekst{
+        width: 100%; 
+    }
+}
+@media screen and (min-width: 1024px) {
+    #tekst{
+        width: 80%; 
+    }
+}
+@media screen and (min-width: 300px) {
+    #header2{
+        width: 100%; 
+    }
+}
+@media screen and (min-width: 1024px) {
+    #header2{
+        width: 100%; 
+    }
+}
+@media screen and (min-width: 300px) {
+    #powitanie{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #powitanie{ 
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+@media screen and (min-width: 300px) {
+    .container1{
+        width: 90% 
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container1{
+        width: 80%
+    }
+}
+

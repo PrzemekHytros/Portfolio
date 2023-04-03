@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+    <title>O Dodikach - Podłużna Planeta</title>              
+</head>
+    
+<body>
+    <header class="page-header">
+        
+         <div class="container1">     
+                    <nav>
+                        <a href="index.html"><h1 id="naglowek">Podłużna Planeta</h1></a>
+                
+                        <ul id="menu2">
+                                <li class="drop"><a>MENU</a>
+                                <ul class="dropdown">
+                                <li><a href="index.html">Home</a></li>
+				                <li><a href="dodiki.html">O Dodikach</a></li>
+				                <li><a href="czytaj.html">Czytaj</a></li>
+				                <li><a href="autor.html">Autor</a></li>
+                                <li><a href="https://www.facebook.com/PodluznaPlaneta/?eid=ARAFP7qLDpFoJxeHaRQ_1bAAp653w-uVFGZGceSGR_Y4Ca68UBcmwzn9IuYULLq6cIQA5zhJE8ZvVKsk" target="blank">Społeczność</a></li>
+			                    </ul>
+                            </li>     
+                            <script
+			                 src="https://code.jquery.com/jquery-3.4.1.js"
+			                 integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+                                    crossorigin="anonymous"></script>
+                            
+                            <script>
+                            $(".drop")
+                            .mouseover(function() {
+                            $(".dropdown").show(300);
+                            });
+                            $(".drop")
+                            .mouseleave(function() {
+                            $(".dropdown").hide(300);     
+                            });
+                            </script>
+                </ul>
+        </nav>     
+     </div>
+        
+    </header>   
+    
+    <div id="main">
+                <div class="container">
+               
+                    <img id="l1" src="img/paratlo.png">   
+                
+                
+                    <img id="l2" src="img/parahoryzont.png">   
+                    
+                        <img id="l6" src="img/parahoryzontprawy.png">
+              
+                      <img id="l3" src="img/parazamek.png">
+
+              
+                      <img id="l4" src="img/paraleon.png">
+                
+                    <img id="l7" src="img/parastatek.png">
+                    
+    
+                     
+                
+                 
+                
+                <script>
+        function Parallax(layers) {
+   this.layers = layers;
+   this.layers.forEach(function(element) {
+      element.el = document.querySelector(element.el);
+   });
+   this.container = this.layers[0].el.parentElement;
+   this.size = {
+      width: 0,
+      height: 0,
+   }
+
+   this.updatePosition = function(layer, pos) {
+      var element = layer.el;
+      var depth = layer.depth;
+
+      var transformPos = {
+         x: - 50 / depth + pos.x + -pos.x / depth,
+         y: -50 / depth + pos.y + -pos.y / depth
+      }
+
+      element.style.transform = "translate(" + transformPos.x + "%, " + transformPos.y + "%)";
+   }
+
+   this.mouseEvent = function(e) {
+      var pos = {
+         x: -e.clientX / this.size.width * 100,
+         y: -e.clientY / this.size.height * 0
+      }
+
+      this.layers.forEach(function(element) {
+         this.updatePosition(element, pos);
+      }.bind(this));
+
+   }.bind(this);
+
+   this.resize = function() {
+      this.size = {
+         width: this.container.offsetWidth,
+         height: this.container.offsetHeight
+      }
+   }.bind(this);
+
+   this.init = function() {
+      this.container.style.position = "relative";
+      this.container.style.height = "70vh";
+      this.container.style.width = "100%";
+      this.container.style.overflow = "hidden";
+
+      this.resize();
+
+      this.layers.forEach(function(layer) {
+         var element = layer.el;
+         var depth = layer.depth;
+
+         element.style.position = "absolute";
+         element.style.top = "50%";
+         element.style.left = "50%";
+         element.style.transform = "translate(-50%, -50%)";
+
+         var size = (100 * depth) + '%';
+
+         element.style.width = size;
+         element.style.height = size;
+         element.style.objectFit = 'cover';
+      }.bind(this));
+
+      this.container.addEventListener('mousemove', this.mouseEvent);
+      window.addEventListener('resize', this.resize);
+   }.bind(this);
+
+   this.init();
+}
+
+var effect = new Parallax([
+   {el: "#l1", depth: 0.999},
+   {el: "#l2", depth: 0.995},
+    {el: "#l6", depth: 1.009},
+   {el: "#l3", depth: 1.004},
+   {el: "#l4", depth: 0.995},
+    {el: "#l7", depth: 1.015},
+]);      
+</script>
+                
+        </div>
+        
+            
+             <article id="tekst">
+                            <h2 id="dodiki">O Dodikach</h2>
+                        <hr>
+                
+                        <p Id="powitanie">
+Nikt nie wie skąd przybyły Dodiki i do dziś stanowi to tajemnicę. Pewne jest jednak to, że pokochały swój dom i to one nadały mu nazwę. Dbały o niego, a on w zamian zabierał je w przepiękne miejsca, gdzie w roziskrzonych mgławicach mogły podglądać nieśmiałe, nowo narodzone gwiazdy.
+                        <br>
+Zapytacie zatem, jak wyglądają mieszkańcy Podłużnej Planety?
+Na pewno są niewysocy – większości z was sięgali by ledwo do pasa. Jednak wcale nie oznacza to, że są mali. Noszą stroje utkane z włókien Zmiennorośli, które zmieniają kolor w zależności od nastroju właściciela. No i uwielbiają się śmiać.
+                        <br>
+Żyją w dwóch głównych osiedlach. Jedno z nich to Mała Osada, leżąca u stóp wysokich gór Krawędziowych. Drugie to Wysokie Miasto, czyli stolica Podłużnej Planety, gdzie mieszka sam Brodaty Król – władca wszystkich Dodików.
+                 </p>
+                </article>        
+        
+        <footer id="footer">
+        <p id="copyr">
+            <a href="https://www.facebook.com/PodluznaPlaneta/?eid=ARAFP7qLDpFoJxeHaRQ_1bAAp653w-uVFGZGceSGR_Y4Ca68UBcmwzn9IuYULLq6cIQA5zhJE8ZvVKsk" target="blank"><img id="" src="img/fb.png"></a>
+            </p>
+        <p id="copyr">Copyright © All rights reserved.</p>
+        </footer>
+        </div>
+        
+</body>
+</html>

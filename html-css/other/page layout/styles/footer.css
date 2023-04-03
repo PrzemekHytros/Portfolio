@@ -1,0 +1,10 @@
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyrights,
+.footer__logo,
+.footer__sponsors {
+    width: 25%;
+}

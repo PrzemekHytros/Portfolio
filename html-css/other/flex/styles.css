@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+.card-section {
+    background-color: #f7f8f8;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card {
+height: 800px;
+width: 900px;
+border-radius: 3px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+margin: 5px;
+
+color: rgba(90, 92, 107, 0.85);
+text-align: center;
+font-size: 10px;
+overflow: hidden;
+}
+
+.plate {
+    height: 200px;
+    width: 100%;
+    line-height: 70px;
+    font-size: 36px;
+
+    color: #ffffff;
+    background: #997fbc;
+}
