@@ -1,0 +1,46 @@
+
+# SELECT / WHERE
+
+#1 View all data about employees who live in Redmond.
+SELECT * FROM employees
+WHERE city = "REDMOND";
+
+#2 Display the code and name of all products that do not belong to the category: Beverages.
+SELECT product_code, product_name FROM products
+WHERE category NOT IN ("Beverages");
+
+#3 View all product details with a purchase cost greater than 12.0000.
+SELECT * FROM products
+WHERE standard_cost > "12.000";
+
+#4 View the city, delivery address, and freight charge for an order with a freight charge between 20.0000 and 78.1223.
+SELECT ship_city,ship_address,shipping_fee FROM orders
+WHERE shipping_fee between 20.000 and 78.1223;
+
+#5 View all product information that has a minimum order quantity.
+SELECT * FROM products
+WHERE minimum_reorder_quantity !="null";
+
+#6 View all information about products that have a minimum order quantity and cost less than 10.0000.
+SELECT * FROM products
+WHERE minimum_reorder_quantity !="null"
+AND standard_cost < 10.000;
+
+#7 Display the first name, last name and city of residence of employees whose city of residence ends in n/a.
+SELECT first_name,last_name,city FROM employees
+WHERE city LIKE "%nd";
+
+#8 Display the name and city of residence of employees whose city of residence ends in nd and is not Redmond.
+SELECT first_name,city FROM employees
+WHERE city LIKE "%nd"
+AND city !="Redmond";
+
+#9 View information about customers who are not managers.
+SELECT * FROM customers
+WHERE job_title !="Purchasing manager";
+
+#10 Display information about clients whose name starts with J or whose last name contains the letter o and who are managers.
+SELECT * FROM customers
+WHERE first_name LIKE "J%" or last_name LIKE "%O%"
+AND job_title LIKE "%MANAGER";
+
