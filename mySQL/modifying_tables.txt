@@ -1,0 +1,36 @@
+1. In your local database, create a table called "Students".
+
+CREATE TABLE students83
+(
+  student_id int(10),
+  student_namme varchar(64),
+  student_surname varchar(128),
+  user_email varchar(256) UNIQUE,
+  class_id int(10)
+  )
+
+2. Add at least 5 students to your "Students" table. Two students must have the same first name.
+
+INSERT INTO students83(student_id, student_namme, student_surname, user_email, class_id)
+				Value (1, "Przemek", "Hytroś", "przemyslaw.hytros@interia.pl", 1);
+                
+INSERT INTO students83(student_id, student_namme, student_surname, user_email, class_id)          
+				Value (2, "Karol", "Wolak", "karol.wolak@interia.pl", 2);
+
+INSERT INTO students83(student_id, student_namme, student_surname, user_email, class_id)          
+				Value (3, "Karol", "Wielak", "karol.wielak@interia.pl", 3);
+                
+INSERT INTO students83(student_id, student_namme, student_surname, user_email, class_id)          
+				Value (4, "Robert", "Zonk", "robert.zonk@interia.pl", 4);
+
+INSERT INTO students83(student_id, student_namme, student_surname, user_email, class_id)          
+				Value (5, "Adam", "Bek", "adam.bek@interia.pl", 5);
+
+3. Remove students who have the same first name from the table.
+
+DELETE FROM students83
+	WHERE student_namme="Karol";
+
+4. Add a new column 'city' to the "Students" table. Update student details and enter their city of residence.
+
+ALTER TABLE students83 ADD city VARCHAR(64);
