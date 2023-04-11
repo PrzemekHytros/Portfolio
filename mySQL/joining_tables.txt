@@ -1,0 +1,31 @@
+#1 View all product details and details of the company that supplies it.
+
+select * from products
+inner join suppliers
+on products.supplier_ids = suppliers.id;
+
+#2 Display the name of the product and the name of the company that supplies it. Sort by company name from A to Z.
+
+select product_name,company from products
+inner join suppliers
+on products.supplier_ids = suppliers.id
+order by company asc;
+
+#3 Display details of customers (name, surname, address, city, country) who have not yet paid for the order.
+
+Select first_name, last_name, address, city, country_region
+from customers
+join orders on orders.customer_id = customers.id
+where payment_type is null;
+
+#4 Prepare a report that includes all data about the orders and the companies that deliver the order. The report should include all orders, including those without a vendor yet.
+
+select * from orders
+left join shippers
+on orders.shipper_id = shippers.id;
+
+#5 Verify that all customers have already placed an order. Display the names of all customers along with the order date and order delivery date.
+
+select customers.company, orders.order_date, orders.shipped_date from customers
+left join orders on customers.id = orders.customer_id
+order by shipped_date desc;
