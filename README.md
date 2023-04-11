@@ -45,7 +45,7 @@ professional experience in this direction
 
 # My works with relational databases (mySQL):
   - [Downloading data](https://github.com/PrzemekHytros/mySQL/blob/main/downloading%20_data.txt)
-  - [Modifying tables] ()
+  - [Modifying tables](https://github.com/PrzemekHytros/Portfolio/blob/main/mySQL/modifying_tables.txt)
 
 # My Website projects:
 - [Responsive website with javascript elements](https://github.com/PrzemekHytros/Portfolio/tree/main/html-css/website)
