@@ -1,0 +1,217 @@
+
+//Test scripts
+
+pm.test("Response time is less than 200ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(200);
+});
+
+pm.test("Successful POST request", function () {
+    pm.expect(pm.response.code).to.be.oneOf([201, 202]);
+});
+
+pm.test("Status code name has string", function () {
+    pm.response.to.have.status("Created");
+});
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+
+//Run test results
+
+{
+	"id": "5b561cda-31f5-49d1-918d-ab1fa5c68480",
+	"name": "Zadanie dodatkowe konta",
+	"timestamp": "2023-04-13T11:06:23.711Z",
+	"collection_id": "25145517-d705e70a-d1c9-469b-a3ea-d6352fa1dc9b",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 5,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-04-13T11:06:21.565Z",
+	"totalFail": 4,
+	"results": [
+		{
+			"id": "b00dc79c-5490-4ef5-99c1-61ff9c019c6a",
+			"name": "3 nowe konta",
+			"url": "https://fintech-testlab.coderslab.pl/api/v1/accounts",
+			"time": 141,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				141
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0b5fdeff-129c-4b06-929b-266194ddd6cd",
+			"name": "3 nowe konta Copy",
+			"url": "https://fintech-testlab.coderslab.pl/api/v1/accounts",
+			"time": 92,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				92
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3181430f-4b9b-45c6-b2a2-97d2b7ed729a",
+			"name": "konto1",
+			"url": "https://fintech-testlab.coderslab.pl/apiv1/accounts",
+			"time": 48,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false,
+				"Response time is less than 250ms": true,
+				"Body matches string": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 250ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				48
+			],
+			"allTests": [
+				{
+					"Status code is 200": false,
+					"Response time is less than 250ms": true,
+					"Body matches string": false
+				}
+			]
+		},
+		{
+			"id": "dff74ebe-4302-420a-a57f-2aea3bd947bb",
+			"name": "konto2",
+			"url": "https://fintech-testlab.coderslab.pl/api/v1/accounts",
+			"time": 57,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 250ms": true,
+				"Body matches string": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 250ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				57
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 250ms": true,
+					"Body matches string": false
+				}
+			]
+		},
+		{
+			"id": "ac66d0da-0949-4104-b4b9-dffc734584b7",
+			"name": "konto3",
+			"url": "https://fintech-testlab.coderslab.pl/api/v1/accounts",
+			"time": 67,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 250ms": true,
+				"Body matches string": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 250ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				67
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 250ms": true,
+					"Body matches string": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 405,
+	"collection": {
+		"requests": [
+			{
+				"id": "b00dc79c-5490-4ef5-99c1-61ff9c019c6a",
+				"method": "GET"
+			},
+			{
+				"id": "0b5fdeff-129c-4b06-929b-266194ddd6cd",
+				"method": "GET"
+			},
+			{
+				"id": "3181430f-4b9b-45c6-b2a2-97d2b7ed729a",
+				"method": "POST"
+			},
+			{
+				"id": "dff74ebe-4302-420a-a57f-2aea3bd947bb",
+				"method": "POST"
+			},
+			{
+				"id": "ac66d0da-0949-4104-b4b9-dffc734584b7",
+				"method": "POST"
+			}
+		]
+	}
+}

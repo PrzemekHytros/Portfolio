@@ -1,4 +1,4 @@
 # API
 
 My works with POSTMAN:
-GET, POST, PUT, DEL
+GET, POST, PUT, 
