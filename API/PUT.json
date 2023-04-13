@@ -1,0 +1,38 @@
+#Body
+
+{
+    "name": "sportbydget",
+    "active": true,
+    "notes": "abcde",
+    "auto_budget_type": "reset",
+    "auto_budget_amount": "100000",
+    "auto_budget_period": "monthly"
+}
+
+  #Response
+
+{
+    "data": {
+        "type": "budgets",
+        "id": "523",
+        "attributes": {
+            "created_at": "2023-02-22T22:10:00+01:00",
+            "updated_at": "2023-02-23T12:44:23+01:00",
+            "active": true,
+            "name": "sportbydget",
+            "auto_budget_type": "reset",
+            "auto_budget_period": "monthly",
+            "auto_budget_currency_id": "1",
+            "auto_budget_currency_code": "EUR",
+            "auto_budget_amount": "100000.00000000",
+            "spent": []
+        },
+        "links": {
+            "self": "https://fintech-testlab.coderslab.pl/api/v1/budgets/523",
+            "0": {
+                "rel": "self",
+                "uri": "/budgets/523"
+            }
+        }
+    }
+}
