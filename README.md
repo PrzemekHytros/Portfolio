@@ -31,6 +31,7 @@ professional experience in this direction
 
 # My test Plans Examples
   - [myStore shopping platform dynamic/functional testing](https://drive.google.com/file/d/1vzyPt01zpHbwrYJ3cp8A1bI99uL_h8h8/view?usp=sharing)
+
 # My test case examples
 - [myStore shopping platform Test Case 1](https://drive.google.com/file/d/142iepME7Wvt8XavHWZ3LIkQ0tDgwBSGV/view?usp=sharing)
 - [myStore shopping platform Test Case 2](https://drive.google.com/file/d/11y0MbMNan3PmyeZ4ToY4WaxsaDn7bFnR/view?usp=share_link)
@@ -43,10 +44,14 @@ professional experience in this direction
 - [Bug in myStore platform documentation](https://drive.google.com/file/d/1IDr0QH4BGquyS2bHeczUfIYlIpwNaEDO/view?usp=sharing)
 - [Bug 1 in myStore platform (on purchasing process), Windows 10](https://drive.google.com/file/d/1ck-Yew_o25RhcQM8tAMhCvLJZQqdBa2o/view?usp=sharing)
 
-# My works with relational databases (mySQL):
-  - [Downloading data](https://github.com/PrzemekHytros/mySQL/blob/main/downloading%20_data.txt)
-  - [Modifying tables](https://github.com/PrzemekHytros/Portfolio/blob/main/mySQL/modifying_tables.txt)
-  - [Joining tables](https://github.com/PrzemekHytros/Portfolio/blob/main/mySQL/joining_tables.txt)
+# My works with relational databases (mySQL)
+- [Downloading data](https://github.com/PrzemekHytros/mySQL/blob/main/downloading%20_data.txt)
+- [Modifying tables](https://github.com/PrzemekHytros/Portfolio/blob/main/mySQL/modifying_tables.txt)
+- [Joining tables](https://github.com/PrzemekHytros/Portfolio/blob/main/mySQL/joining_tables.txt)
+
+#My REST API testing:
+
+- [Testing with POSTMAN](https://github.com/PrzemekHytros/Portfolio/tree/main/API)
 
 # My Website projects:
 - [Responsive website with javascript elements](https://github.com/PrzemekHytros/Portfolio/tree/main/html-css/website)
