@@ -1,0 +1,282 @@
+{
+    "data": [
+        {
+            "type": "accounts",
+            "id": "3744",
+            "attributes": {
+                "created_at": "2023-02-20T20:15:01+01:00",
+                "updated_at": "2023-02-23T12:49:35+01:00",
+                "active": true,
+                "order": null,
+                "name": "Darek",
+                "type": "expense",
+                "account_role": null,
+                "currency_id": "906",
+                "currency_code": "KSD",
+                "currency_symbol": "KKD$",
+                "currency_decimal_places": 2,
+                "current_balance": "0.00",
+                "current_balance_date": "2023-04-13T23:59:59+02:00",
+                "notes": "abc",
+                "monthly_payment_date": null,
+                "credit_card_type": null,
+                "account_number": "2",
+                "iban": "PL67109024024597453717145185",
+                "bic": null,
+                "virtual_balance": "0.00",
+                "opening_balance": "0.00",
+                "opening_balance_date": null,
+                "liability_type": null,
+                "liability_direction": null,
+                "interest": null,
+                "interest_period": null,
+                "current_debt": null,
+                "include_net_worth": true,
+                "longitude": null,
+                "latitude": null,
+                "zoom_level": null
+            },
+            "links": {
+                "self": "https://fintech-testlab.coderslab.pl/api/v1/accounts/3744",
+                "0": {
+                    "rel": "self",
+                    "uri": "/accounts/3744"
+                }
+            }
+        },
+        {
+            "type": "accounts",
+            "id": "3741",
+            "attributes": {
+                "created_at": "2023-02-20T20:14:18+01:00",
+                "updated_at": "2023-02-20T20:14:18+01:00",
+                "active": true,
+                "order": null,
+                "name": "Initial balance for \"Przemek\"",
+                "type": "initial-balance",
+                "account_role": null,
+                "currency_id": "1",
+                "currency_code": "EUR",
+                "currency_symbol": "€",
+                "currency_decimal_places": 8,
+                "current_balance": "-10006420.00000000",
+                "current_balance_date": "2023-04-13T23:59:59+02:00",
+                "notes": null,
+                "monthly_payment_date": null,
+                "credit_card_type": null,
+                "account_number": null,
+                "iban": null,
+                "bic": null,
+                "virtual_balance": "0.00000000",
+                "opening_balance": "0.00000000",
+                "opening_balance_date": null,
+                "liability_type": null,
+                "liability_direction": null,
+                "interest": null,
+                "interest_period": null,
+                "current_debt": null,
+                "include_net_worth": true,
+                "longitude": null,
+                "latitude": null,
+                "zoom_level": null
+            },
+            "links": {
+                "self": "https://fintech-testlab.coderslab.pl/api/v1/accounts/3741",
+                "0": {
+                    "rel": "self",
+                    "uri": "/accounts/3741"
+                }
+            }
+        },
+        {
+            "type": "accounts",
+            "id": "3807",
+            "attributes": {
+                "created_at": "2023-02-22T20:30:07+01:00",
+                "updated_at": "2023-02-22T20:30:07+01:00",
+                "active": true,
+                "order": null,
+                "name": "PrzemekHytros",
+                "type": "expense",
+                "account_role": null,
+                "currency_id": "12",
+                "currency_code": "AUD",
+                "currency_symbol": "A$",
+                "currency_decimal_places": 2,
+                "current_balance": "0.00",
+                "current_balance_date": "2023-04-13T23:59:59+02:00",
+                "notes": null,
+                "monthly_payment_date": null,
+                "credit_card_type": null,
+                "account_number": null,
+                "iban": null,
+                "bic": null,
+                "virtual_balance": "0.00",
+                "opening_balance": "0.00",
+                "opening_balance_date": null,
+                "liability_type": null,
+                "liability_direction": null,
+                "interest": null,
+                "interest_period": null,
+                "current_debt": null,
+                "include_net_worth": true,
+                "longitude": null,
+                "latitude": null,
+                "zoom_level": null
+            },
+            "links": {
+                "self": "https://fintech-testlab.coderslab.pl/api/v1/accounts/3807",
+                "0": {
+                    "rel": "self",
+                    "uri": "/accounts/3807"
+                }
+            }
+        },
+        {
+            "type": "accounts",
+            "id": "3815",
+            "attributes": {
+                "created_at": "2023-02-22T20:35:18+01:00",
+                "updated_at": "2023-02-22T20:35:18+01:00",
+                "active": true,
+                "order": null,
+                "name": "PrzemekHytros3",
+                "type": "expense",
+                "account_role": null,
+                "currency_id": "13",
+                "currency_code": "NZD",
+                "currency_symbol": "NZ$",
+                "currency_decimal_places": 2,
+                "current_balance": "0.00",
+                "current_balance_date": "2023-04-13T23:59:59+02:00",
+                "notes": null,
+                "monthly_payment_date": null,
+                "credit_card_type": null,
+                "account_number": null,
+                "iban": null,
+                "bic": null,
+                "virtual_balance": "0.00",
+                "opening_balance": "0.00",
+                "opening_balance_date": null,
+                "liability_type": null,
+                "liability_direction": null,
+                "interest": null,
+                "interest_period": null,
+                "current_debt": null,
+                "include_net_worth": true,
+                "longitude": null,
+                "latitude": null,
+                "zoom_level": null
+            },
+            "links": {
+                "self": "https://fintech-testlab.coderslab.pl/api/v1/accounts/3815",
+                "0": {
+                    "rel": "self",
+                    "uri": "/accounts/3815"
+                }
+            }
+        },
+        {
+            "type": "accounts",
+            "id": "3817",
+            "attributes": {
+                "created_at": "2023-02-22T20:36:00+01:00",
+                "updated_at": "2023-02-22T20:36:00+01:00",
+                "active": true,
+                "order": null,
+                "name": "PrzemekHytros4",
+                "type": "expense",
+                "account_role": null,
+                "currency_id": "13",
+                "currency_code": "NZD",
+                "currency_symbol": "NZ$",
+                "currency_decimal_places": 2,
+                "current_balance": "0.00",
+                "current_balance_date": "2023-04-13T23:59:59+02:00",
+                "notes": null,
+                "monthly_payment_date": null,
+                "credit_card_type": null,
+                "account_number": null,
+                "iban": null,
+                "bic": null,
+                "virtual_balance": "0.00",
+                "opening_balance": "0.00",
+                "opening_balance_date": null,
+                "liability_type": null,
+                "liability_direction": null,
+                "interest": null,
+                "interest_period": null,
+                "current_debt": null,
+                "include_net_worth": true,
+                "longitude": null,
+                "latitude": null,
+                "zoom_level": null
+            },
+            "links": {
+                "self": "https://fintech-testlab.coderslab.pl/api/v1/accounts/3817",
+                "0": {
+                    "rel": "self",
+                    "uri": "/accounts/3817"
+                }
+            }
+        },
+        {
+            "type": "accounts",
+            "id": "3740",
+            "attributes": {
+                "created_at": "2023-02-20T20:14:18+01:00",
+                "updated_at": "2023-02-20T20:14:21+01:00",
+                "active": true,
+                "order": 1,
+                "name": "Przemek",
+                "type": "asset",
+                "account_role": "defaultAsset",
+                "currency_id": "1",
+                "currency_code": "EUR",
+                "currency_symbol": "€",
+                "currency_decimal_places": 8,
+                "current_balance": "10000001.00000000",
+                "current_balance_date": "2023-04-13T23:59:59+02:00",
+                "notes": "abc",
+                "monthly_payment_date": null,
+                "credit_card_type": null,
+                "account_number": "1",
+                "iban": "PL45109024028662582173664613",
+                "bic": null,
+                "virtual_balance": "1.00000000",
+                "opening_balance": "10000000.00000000",
+                "opening_balance_date": "2023-02-20T00:00:00+01:00",
+                "liability_type": null,
+                "liability_direction": null,
+                "interest": null,
+                "interest_period": null,
+                "current_debt": null,
+                "include_net_worth": true,
+                "longitude": null,
+                "latitude": null,
+                "zoom_level": null
+            },
+            "links": {
+                "self": "https://fintech-testlab.coderslab.pl/api/v1/accounts/3740",
+                "0": {
+                    "rel": "self",
+                    "uri": "/accounts/3740"
+                }
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 6,
+            "count": 6,
+            "per_page": 50,
+            "current_page": 1,
+            "total_pages": 1
+        }
+    },
+    "links": {
+        "self": "https://fintech-testlab.coderslab.pl/api/v1/accounts?type=all&page=1",
+        "first": "https://fintech-testlab.coderslab.pl/api/v1/accounts?type=all&page=1",
+        "last": "https://fintech-testlab.coderslab.pl/api/v1/accounts?type=all&page=1"
+    }
+}
