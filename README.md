@@ -49,7 +49,7 @@ professional experience in this direction
 - [Modifying tables](https://github.com/PrzemekHytros/Portfolio/blob/main/mySQL/modifying_tables.txt)
 - [Joining tables](https://github.com/PrzemekHytros/Portfolio/blob/main/mySQL/joining_tables.txt)
 
-#My REST API testing:
+# My REST API testing:
 
 - [Testing with POSTMAN](https://github.com/PrzemekHytros/Portfolio/tree/main/API)
 
