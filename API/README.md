@@ -1,3 +1,4 @@
 # API
 
-My works with POSTMAN
+My works with POSTMAN:
+GET, POST, PUT, DEL
