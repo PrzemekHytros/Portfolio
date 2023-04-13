@@ -3,7 +3,7 @@
 
 # About me
 Many years of experience in customer service and negotiations have provided me with a high level of
-interpersonal skills. Due to life changes I became interested in So ware Testing. I have completed
+interpersonal skills. Due to life changes I became interested in sofware testing. I have completed
 professional ISTQB training and practical training in the field of Manual Testing and I intend to gain
 professional experience in this direction
 
