@@ -27,7 +27,8 @@ professional experience in this direction
 
 # Courses
 - [Manual Tester - Coders Lab IT school](https://coderslab.pl/pl/tester-manualny)
-- Devmentor - Html i CSS: Building responsive websites 
+- [Software testing basics - Udemy](https://www.udemy.com/course/kurs-testowania-oprogramowania/learn/lecture/18696984?start=0#overview)
+- [Devmentor - Html i CSS and Javascript basics: Building responsive websites](https://devmentor.pl/)
 
 # My test Plans Examples
   - [myStore shopping platform dynamic/functional testing](https://drive.google.com/file/d/1vzyPt01zpHbwrYJ3cp8A1bI99uL_h8h8/view?usp=sharing)
