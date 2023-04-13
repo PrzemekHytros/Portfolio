@@ -1,4 +1,5 @@
 # API
 
 My works with POSTMAN:
-GET, POST, PUT, 
+- GET, POST, PUT, 
+- Run Tests
