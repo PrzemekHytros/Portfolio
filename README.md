@@ -52,7 +52,7 @@ professional experience in this direction
 
 # My REST API testing:
 
-- [Testing with POSTMAN](https://github.com/PrzemekHytros/Portfolio/tree/main/API)
+- [Testing with POSTMAN](https://github.com/PrzemekHytros/Portfolio/tree/main/Rest-API)
 
 # My Website projects:
 - [Responsive website with javascript elements](https://github.com/PrzemekHytros/Portfolio/tree/main/html-css/website)
