@@ -1,0 +1,90 @@
+{
+    "id": "643d3f9aa99c1d836b24493e",
+    "aaId": "630dd54e09bc6014ea8acb08",
+    "activityBlocked": false,
+    "avatarHash": "61598a62cb474596d2f8ede0f2cc380a",
+    "avatarUrl": "https://trello-members.s3.amazonaws.com/643d3f9aa99c1d836b24493e/61598a62cb474596d2f8ede0f2cc380a",
+    "bio": "",
+    "bioData": {
+        "emoji": {}
+    },
+    "confirmed": true,
+    "fullName": "Pzemysław Hytroś",
+    "idEnterprise": null,
+    "idEnterprisesDeactivated": [],
+    "idMemberReferrer": null,
+    "idPremOrgsAdmin": [],
+    "initials": "PH",
+    "memberType": "normal",
+    "nonPublic": {},
+    "nonPublicAvailable": true,
+    "products": [],
+    "url": "https://trello.com/przemyslawhytros",
+    "username": "przemyslawhytros",
+    "status": "disconnected",
+    "aaBlockSyncUntil": null,
+    "aaEmail": null,
+    "aaEnrolledDate": null,
+    "avatarSource": "atlassianAccount",
+    "credentialsRemovedCount": 0,
+    "domainClaimed": null,
+    "email": "przemyslaw.hytros@gmail.com",
+    "gravatarHash": "6128506726843b0e5d2f217481aa8ce6",
+    "idBoards": [
+        "643d4cd585918e8a85b34ca5"
+    ],
+    "idOrganizations": [
+        "643d40b1c0a2694d1e4e7640"
+    ],
+    "idEnterprisesAdmin": [],
+    "limits": {
+        "boards": {
+            "totalPerMember": {
+                "status": "ok",
+                "disableAt": 4500,
+                "warnAt": 3600
+            }
+        },
+        "orgs": {
+            "totalPerMember": {
+                "status": "ok",
+                "disableAt": 850,
+                "warnAt": 680
+            }
+        }
+    },
+    "loginTypes": [
+        "atlassian"
+    ],
+    "marketingOptIn": {},
+    "messagesDismissed": [],
+    "oneTimeMessagesDismissed": [
+        "sent-possible-new-signup-event",
+        "ack-new-feature-ThemeSwitcherSpotlight-1733007600000",
+        "close-menu-of-first-board"
+    ],
+    "prefs": {
+        "privacy": {
+            "fullName": "public",
+            "avatar": "public"
+        },
+        "sendSummaries": true,
+        "minutesBetweenSummaries": 60,
+        "minutesBeforeDeadlineToNotify": 1440,
+        "colorBlind": false,
+        "locale": "en-GB"
+    },
+    "trophies": [],
+    "uploadedAvatarHash": null,
+    "uploadedAvatarUrl": null,
+    "premiumFeatures": [
+        "additionalBoardBackgrounds",
+        "additionalStickers",
+        "customBoardBackgrounds",
+        "customEmoji",
+        "customStickers",
+        "plugins"
+    ],
+    "isAaMastered": true,
+    "ixUpdate": "17"
+}
