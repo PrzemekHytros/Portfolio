@@ -1,0 +1,14 @@
+{
+    "bookingid": 9409,
+    "booking": {
+        "firstname": "Przemek",
+        "lastname": "Hytroś",
+        "totalprice": 111,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-01-07",
+            "checkout": "2023-01-08"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}
