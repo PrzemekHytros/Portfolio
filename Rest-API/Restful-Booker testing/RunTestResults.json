@@ -1,0 +1,169 @@
+{
+	"id": "f94ffa61-a6ee-403f-9dba-90dfe3ba12f3",
+	"name": "restful-booker",
+	"timestamp": "2023-04-20T11:37:37.599Z",
+	"collection_id": "25145517-347faa30-1a54-4bdd-9d67-19d9ae05b0e1",
+	"folder_id": 0,
+	"environment_id": "25145517-0c61da8f-799f-40c3-a9c1-b410d29f3d89",
+	"totalPass": 5,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-04-20T11:37:35.268Z",
+	"totalFail": 7,
+	"results": [
+		{
+			"id": "16fba7a1-02c2-4ca7-b73b-c0400aa157f6",
+			"name": "List of Bookings Ids",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 756,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": false,
+				"Successful POST request": false,
+				"Your test name": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				756
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": false,
+					"Successful POST request": false,
+					"Your test name": false
+				}
+			]
+		},
+		{
+			"id": "ea7be0b3-8fe5-4be4-bb77-1fcc8723a2c7",
+			"name": "New Booking",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 186,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Successful POST request": false,
+				"Your test name": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				186
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Successful POST request": false,
+					"Your test name": false
+				}
+			]
+		},
+		{
+			"id": "1dfe48d5-5e0e-4eed-b9a7-7d8b698601a2",
+			"name": "My Booking",
+			"url": "https://restful-booker.herokuapp.com/booking/3655",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Successful POST request": false,
+				"Your test name": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Successful POST request": false,
+					"Your test name": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1068,
+	"collection": {
+		"requests": [
+			{
+				"id": "16fba7a1-02c2-4ca7-b73b-c0400aa157f6",
+				"method": "GET"
+			},
+			{
+				"id": "ea7be0b3-8fe5-4be4-bb77-1fcc8723a2c7",
+				"method": "POST"
+			},
+			{
+				"id": "1dfe48d5-5e0e-4eed-b9a7-7d8b698601a2",
+				"method": "GET"
+			}
+		]
+	}
+}
