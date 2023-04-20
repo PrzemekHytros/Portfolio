@@ -42,7 +42,7 @@ professional experience in this direction
 - [Bug in shopping website (on registration process), Windows 10](https://drive.google.com/file/d/1bQERqcb5VUHGrWwRysnEvDo4phytReFu/view?usp=share_link)
 - [Bug in shopping website (on Checkout/Delivery process), Windows 10](https://drive.google.com/file/d/1Rm-SgtkAMYRvnG8BjCWcWcpp4mogsiNf/view?usp=sharing)
 - [Bug in mobile shopping website (content issue), Android 13](https://drive.google.com/file/d/1umYqcc4eCeVfZFCQrrCPovL2mfqfAuWh/view?usp=sharing)
-- [Bug in myStore platform documentation](https://drive.google.com/file/d/1IDr0QH4BGquyS2bHeczUfIYlIpwNaEDO/view?usp=sharing)
+- [API Testing with Postman: Bug in Booking website (On making new booking process)](https://drive.google.com/file/d/13YCgaRrxj6-TiDHHxrE3kqy0h5ZcfxJ9/view?usp=sharing)
 - [Bug 1 in myStore platform (on purchasing process), Windows 10](https://drive.google.com/file/d/1ck-Yew_o25RhcQM8tAMhCvLJZQqdBa2o/view?usp=sharing)
 
 # My works with relational databases (mySQL)
@@ -52,7 +52,7 @@ professional experience in this direction
 
 # My REST API testing:
 
-- [Testing with POSTMAN: CRUD, Automatic tests](https://github.com/PrzemekHytros/Portfolio/tree/main/Rest-API)
+- [Testing with POSTMAN: CRUD, Automatic tests](https://github.com/PrzemekHytros/Portfolio/tree/main/Rest-API)git
 
 # My Website projects:
 - [Responsive website with javascript elements](https://github.com/PrzemekHytros/Portfolio/tree/main/html-css/website)
