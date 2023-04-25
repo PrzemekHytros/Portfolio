@@ -51,8 +51,10 @@ professional experience in this direction
 - [Joining tables](https://github.com/PrzemekHytros/Portfolio/blob/main/mySQL/joining_tables.txt)
 
 # My REST API testing:
-
 - [Testing with POSTMAN: CRUD, Automatic tests](https://github.com/PrzemekHytros/Portfolio/tree/main/Rest-API)
+
+# My SOAP testing:
+- [Testing with SOAPUI]()
 
 # My Website projects:
 - [Responsive website with javascript elements](https://github.com/PrzemekHytros/Portfolio/tree/main/html-css/website)
