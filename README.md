@@ -54,7 +54,7 @@ professional experience in this direction
 - [Testing with POSTMAN: CRUD, Automatic tests](https://github.com/PrzemekHytros/Portfolio/tree/main/Rest-API)
 
 # My SOAP testing:
-- [Testing with SOAPUI]()
+- [Testing with SOAPUI](https://github.com/PrzemekHytros/Portfolio/tree/main/Soap)
 
 # My Website projects:
 - [Responsive website with javascript elements](https://github.com/PrzemekHytros/Portfolio/tree/main/html-css/website)
