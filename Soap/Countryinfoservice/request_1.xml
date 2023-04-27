@@ -1,0 +1,29 @@
+<!-- Request -->  
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:CapitalCity>
+         <web:sCountryISOCode>PL</web:sCountryISOCode>
+      </web:CapitalCity>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+<!-- Response:  
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Web-Service: DataFlex 19.1
+Date: Thu, 27 Apr 2023 10:54:45 GMT -->
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:CapitalCityResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CapitalCityResult>Warsaw</m:CapitalCityResult>
+    </m:CapitalCityResponse>
+  </soap:Body>
+</soap:Envelope>
