@@ -1,0 +1,43 @@
+<!-- Request -->  
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:FullCountryInfo>
+         <web:sCountryISOCode>PL</web:sCountryISOCode>
+      </web:FullCountryInfo>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+<!-- Response:
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Web-Service: DataFlex 19.1
+Date: Thu, 27 Apr 2023 11:23:05 GMT --> 
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:FullCountryInfoResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:FullCountryInfoResult>
+        <m:sISOCode>PL</m:sISOCode>
+        <m:sName>Poland</m:sName>
+        <m:sCapitalCity>Warsaw</m:sCapitalCity>
+        <m:sPhoneCode>48</m:sPhoneCode>
+        <m:sContinentCode>EU</m:sContinentCode>
+        <m:sCurrencyISOCode>PLN</m:sCurrencyISOCode>
+        <m:sCountryFlag>http://www.oorsprong.org/WebSamples.CountryInfo/Flags/Poland.jpg</m:sCountryFlag>
+        <m:Languages>
+          <m:tLanguage>
+            <m:sISOCode>pol</m:sISOCode>
+            <m:sName>Polish</m:sName>
+          </m:tLanguage>
+        </m:Languages>
+      </m:FullCountryInfoResult>
+    </m:FullCountryInfoResponse>
+  </soap:Body>
+</soap:Envelope>
