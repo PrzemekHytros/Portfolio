@@ -2,4 +2,5 @@
 My works with SOAPUI:
 - Soap projects
 - Verification of applications and answers
-- Working with TestSuites, TestCases and TestSteps
+- TestSuites with Test Cases, Load Tests, Security Tests
+
