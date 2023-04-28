@@ -1,0 +1,20 @@
+<!-- Request --> 
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.dataaccess.com/webservicesserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:NumberToWords>
+         <web:ubiNum>1356.78</web:ubiNum>
+      </web:NumberToWords>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+<!-- Response --> 
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <m:NumberToWordsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/">
+         <m:NumberToWordsResult>one thousand three hundred and fifty six</m:NumberToWordsResult>
+      </m:NumberToWordsResponse>
+   </soap:Body>
+</soap:Envelope>

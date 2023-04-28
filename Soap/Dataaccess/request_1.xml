@@ -1,0 +1,20 @@
+<!-- Request -->  
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.dataaccess.com/webservicesserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:NumberToDollars>
+         <web:dNum>125.30</web:dNum>
+      </web:NumberToDollars>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+<!-- Response --> 
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <m:NumberToDollarsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/">
+         <m:NumberToDollarsResult>one hundred and twenty five dollars and thirty cents</m:NumberToDollarsResult>
+      </m:NumberToDollarsResponse>
+   </soap:Body>
+</soap:Envelope>
