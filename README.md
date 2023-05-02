@@ -57,9 +57,8 @@ professional experience in this direction
 - [Testing with SOAPUI](https://github.com/PrzemekHytros/Portfolio/tree/main/Soap)
 
 # My JavaScript projects:
-  - [JavaScripts for websites, Various programms]()
+  - [JavaScripts for websites, Various programms](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript)
   
-
 # My Website projects:
 - [Responsive website](https://github.com/PrzemekHytros/Portfolio/tree/main/html-css/website)
 - [Other website elements and projects](https://github.com/PrzemekHytros/Portfolio/tree/main/html-css/other)
