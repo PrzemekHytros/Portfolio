@@ -30,7 +30,7 @@ professional experience in this direction
 - [Software testing basics - Udemy](https://www.udemy.com/course/kurs-testowania-oprogramowania/learn/lecture/18696984?start=0#overview)
 - [Devmentor - Html i CSS and Javascript basics: Building responsive websites](https://devmentor.pl/)
 
-# My test Plans Examples
+# My test plans examples
   - [myStore shopping platform dynamic/functional testing](https://drive.google.com/file/d/1vzyPt01zpHbwrYJ3cp8A1bI99uL_h8h8/view?usp=sharing)
 
 # My test case examples
@@ -63,11 +63,5 @@ professional experience in this direction
 - [Responsive website](https://github.com/PrzemekHytros/Portfolio/tree/main/html-css/website)
 - [Other website elements and projects](https://github.com/PrzemekHytros/Portfolio/tree/main/html-css/other)
 
-# Books
-- ["Ścieżka testera. Certyfikat ISTQB w pytaniach i odpowiedziach"](https://helion.pl/ksiazki/sciezka-testera-certyfikat-istqb-w-pytaniach-i-odpowiedziach-rafal-podraza,istqbw.htm#format/d)
-- ["Certyfikowany tester ISTQB. Poziom podstawowy"](https://ksiegarnia.pwn.pl/Zawod-tester.-Od-decyzji-do-zdobycia-doswiadczenia,743423772,p.html)
-- ["Zawód tester. Od decyzji do zdobycia doświadczenia"](https://ksiegarnia.pwn.pl/Zawod-tester.-Od-decyzji-do-zdobycia-doswiadczenia,743423772,p.html)
-- ["Język SQL. Przyjazny podręcznik."](https://helion.pl/ksiazki/jezyk-sql-przyjazny-podrecznik-wydanie-ii-larry-rockoff,jsqlp2.htm#format/e)
 
-# Facebook gropus
-- [Testowanie oprogramowania](https://www.facebook.com/groups/141683635854223)
+
