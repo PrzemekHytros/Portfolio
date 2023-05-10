@@ -58,10 +58,10 @@ professional experience in this direction
 
 # My JavaScript projects:
 
-- [Responsive website with JavaScript elements]()
-- [Web registration form with weryfication]()
-- [Currency converter]()
-- [Arithmetic average]()
+- [Responsive website with JavaScript elements](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript/website)
+- [Web registration form with weryfication](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript/webformwerification)
+- [Currency converter](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript/currencyconverter)
+- [Arithmetic average](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript/arithmeticaverage)
   
 
 
