@@ -4,8 +4,7 @@
 # About me
 Many years of experience in customer service and negotiations have provided me with a high level of
 interpersonal skills. Due to life changes I became interested in sofware testing. I have completed
-professional ISTQB training and practical training in the field of Manual Testing and I intend to gain
-professional experience in this direction
+professional ISTQB training and practical training in the field of Manual Testing and programming and I intend to gain professional experience in this direction
 
 # Tools
 - JIRA
@@ -24,8 +23,10 @@ professional experience in this direction
 - Soap and API basics
 - Exploratory tests
 - Databases basics
+- JavaScript basics
 
 # Courses
+- [Programming in JavaScript - Devmentor.pl](https://devmentor.pl/)
 - [Manual Tester - Coders Lab IT school](https://coderslab.pl/pl/tester-manualny)
 - [Software testing basics - Udemy](https://www.udemy.com/course/kurs-testowania-oprogramowania/learn/lecture/18696984?start=0#overview)
 - [Devmentor - Html i CSS and Javascript basics: Building responsive websites](https://devmentor.pl/)
@@ -57,11 +58,11 @@ professional experience in this direction
 - [Testing with SOAPUI](https://github.com/PrzemekHytros/Portfolio/tree/main/Soap)
 
 # My JavaScript projects:
-
 - [Responsive website with JavaScript elements](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript/website)
 - [Web registration form with weryfication](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript/webformwerification)
 - [Currency converter](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript/currencyconverter)
 - [Arithmetic average](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript/arithmeticaverage)
+- [Age-veryfication]()
   
 
 
