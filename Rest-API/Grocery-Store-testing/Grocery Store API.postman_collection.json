@@ -42,7 +42,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseUrl}}/products",
+					"raw": "{{baseUrl}}/products?results=20",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -52,8 +52,7 @@
 					"query": [
 						{
 							"key": "results",
-							"value": "10",
-							"disabled": true
+							"value": "20"
 						},
 						{
 							"key": "category",
@@ -107,7 +106,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseUrl}}/carts/:cartId?=QQVyMAIP_8jN_HhJ_PSQE",
+					"raw": "{{baseUrl}}/carts/:cartId?=",
 					"host": [
 						"{{baseUrl}}"
 					],
@@ -117,14 +116,14 @@
 					],
 					"query": [
 						{
-							"key": null,
-							"value": "QQVyMAIP_8jN_HhJ_PSQE"
+							"key": "",
+							"value": ""
 						}
 					],
 					"variable": [
 						{
 							"key": "cartId",
-							"value": "DIEhL7WODX4d3y5Iu_pDs"
+							"value": "{{cartid}}"
 						}
 					]
 				}
@@ -149,7 +148,7 @@
 					"variable": [
 						{
 							"key": "cartId",
-							"value": "sRbNTlM3q58BTHAK5gfQS"
+							"value": "{{cartid}}"
 						}
 					]
 				}
@@ -201,61 +200,6 @@
 							"key": "category",
 							"value": "eggs",
 							"disabled": true
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Update Oreder",
-			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "{{access Token}}",
-							"type": "string"
-						}
-					]
-				},
-				"method": "PATCH",
-				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n \"customerName\": \"Anna Hytroś\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "{{baseUrl}}/orders/:orderId",
-					"host": [
-						"{{baseUrl}}"
-					],
-					"path": [
-						"orders",
-						":orderId"
-					],
-					"query": [
-						{
-							"key": "results",
-							"value": "10",
-							"disabled": true
-						},
-						{
-							"key": "category",
-							"value": "eggs",
-							"disabled": true
-						}
-					],
-					"variable": [
-						{
-							"key": "orderId",
-							"value": "lTRGFdYO4SpbxkR2KTtcr"
 						}
 					]
 				}
@@ -360,7 +304,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n   \"productId\": 4643\r\n}",
+					"raw": "{\r\n   \"productId\": 4641\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -380,7 +324,7 @@
 					"variable": [
 						{
 							"key": "cartId",
-							"value": "sRbNTlM3q58BTHAK5gfQS"
+							"value": "{{cartid}}"
 						}
 					]
 				}
@@ -429,6 +373,278 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Update Order Comment",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{access Token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"comment\": \"New Comment\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/orders/:orderId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"orders",
+						":orderId"
+					],
+					"query": [
+						{
+							"key": "results",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "eggs",
+							"disabled": true
+						}
+					],
+					"variable": [
+						{
+							"key": "orderId",
+							"value": "lTRGFdYO4SpbxkR2KTtcr"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Oreder",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{access Token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"customerName\": \"Anna Hytroś\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/orders/:orderId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"orders",
+						":orderId"
+					],
+					"query": [
+						{
+							"key": "results",
+							"value": "10",
+							"disabled": true
+						},
+						{
+							"key": "category",
+							"value": "eggs",
+							"disabled": true
+						}
+					],
+					"variable": [
+						{
+							"key": "orderId",
+							"value": "lTRGFdYO4SpbxkR2KTtcr"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Modyfiy item quantitity",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"quantity\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/carts/:cartId/items/:itemId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"carts",
+						":cartId",
+						"items",
+						":itemId"
+					],
+					"variable": [
+						{
+							"key": "cartId",
+							"value": "{{cartid}}"
+						},
+						{
+							"key": "itemId",
+							"value": "761090119"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Replace product in the cart",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 4643,\r\n    \"quantity\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/carts/:cartId/items/:itemId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"carts",
+						":cartId",
+						"items",
+						":itemId"
+					],
+					"variable": [
+						{
+							"key": "cartId",
+							"value": "{{cartid}}"
+						},
+						{
+							"key": "itemId",
+							"value": "761090119"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Item in the cart",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 4643,\r\n    \"quantity\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/carts/:cartId/items/:itemId",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"carts",
+						":cartId",
+						"items",
+						":itemId"
+					],
+					"variable": [
+						{
+							"key": "cartId",
+							"value": "{{cartid}}"
+						},
+						{
+							"key": "itemId",
+							"value": "761090119"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete order",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{access Token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"clientName\": \"Anna Hytroś\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/orders/:orderId?cartid={{cartid}}",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"orders",
+						":orderId"
+					],
+					"query": [
+						{
+							"key": "cartid",
+							"value": "{{cartid}}"
+						}
+					],
+					"variable": [
+						{
+							"key": "orderId",
+							"value": "lTRGFdYO4SpbxkR2KTtcr"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"event": [
@@ -462,6 +678,11 @@
 		},
 		{
 			"key": "access Token",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "cartid",
 			"value": "",
 			"type": "string"
 		}
