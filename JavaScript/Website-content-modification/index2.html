@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"On-the-fly" class change</title>
+        <style>
+            li.highlighted { background: yellow; }
+        </style>
+</head>
+<body>
+    <ul>
+        <li>Jeden</li>
+        <li>Dwa</li>
+        <li>Trzy</li>
+        <li>Cztery</li>
+    </ul>
+    
+    <script src="../../JQuery/libs/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(function () {
+            $("li").click(function () {
+                $(this).toggleClass("highlighted");
+            });
+        });
+    </script>
+</body>
+</html>

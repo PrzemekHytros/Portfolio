@@ -3,6 +3,7 @@
 - Register Form weryfication
 - Arithmetic average program
 - Currency converter program
+- Website content modyfication
 
 
 
