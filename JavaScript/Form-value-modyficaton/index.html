@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form value modyfication</title>
+    <style>
+        input[name="email"] {color: #999; }
+    </style>
+</head>
+<body>
+    <form>
+        <label>Adres e-mail: <input name="email" value="nazwa_użytkownika@nazwa_domeny.pl" size="40" /></label>
+    </form>
+
+<script src="../../JQuery/libs/jquery-3.6.4.min.js"></script>
+<script type="text/javascript" charset="UTF-8">
+$(function () {
+    $("input[name='email']").focus(function () {
+        if ($(this).val() == "nazwa_użytkownika@nazwa_domeny.pl") {
+            $(this).val("");
+            $(this).css("color", "black");
+        }
+    
+    });
+
+    $("input[name='email']").blur(function () {
+        if ($(this).val() == "") {
+            $(this).val("nazwa_użytkownika@nazwa_domeny.pl");
+            $(this).css("color", "#999");
+    }
+    });
+});
+
+</script>
+</body>
+</html>
