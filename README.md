@@ -26,6 +26,7 @@ professional ISTQB training and practical training in the field of Manual Testin
 - JavaScript basics
 
 # Courses
+- [Postman: The Complete Guide - REST API Testing - UDEMY](https://www.udemy.com/course/postman-the-complete-guide/learn/lecture/9134152#overview)
 - [Programming in JavaScript - Devmentor.pl](https://devmentor.pl/)
 - [Manual Tester - Coders Lab IT school](https://coderslab.pl/pl/tester-manualny)
 - [Software testing basics - Udemy](https://www.udemy.com/course/kurs-testowania-oprogramowania/learn/lecture/18696984?start=0#overview)
