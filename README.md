@@ -64,7 +64,7 @@ professional ISTQB training and practical training in the field of Manual Testin
 - [Currency converter](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript/currencyconverter)
 - [Arithmetic average](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript/arithmeticaverage)
 - [Age-veryfication](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript/Adult-veryfication)
-- [Math.Random]
+- [Math.Random](https://github.com/PrzemekHytros/Portfolio/blob/main/JavaScript/Math-Random/mathRandom.js)
   
 
 
