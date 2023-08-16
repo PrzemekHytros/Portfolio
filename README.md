@@ -58,13 +58,8 @@ professional ISTQB training and practical training in the field of Manual Testin
 # My SOAP testing:
 - [Testing with SOAPUI](https://github.com/PrzemekHytros/Portfolio/tree/main/Soap)
 
-# My JavaScript projects:
-- [Responsive website with JavaScript elements](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript/website)
-- [Web registration form with weryfication](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript/webformwerification)
-- [Currency converter](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript/currencyconverter)
-- [Arithmetic average](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript/arithmeticaverage)
-- [Age veryfication](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript/Adult-veryfication)
-- [Random number generator](https://github.com/PrzemekHytros/Portfolio/blob/main/JavaScript/Random-number-generator/randomNumber.js)
+# JavaScript:
+- [My scripts and projects with JavaScript](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript)
   
 
 
