@@ -4,7 +4,7 @@
 # About me
 Many years of experience in customer service and negotiations have provided me with a high level of
 interpersonal skills. Due to life changes I became interested in sofware testing. I have completed
-professional ISTQB training and practical training in the field of Manual Testing and programming and I intend to gain professional experience in this direction
+professional ISTQB training and practical training in the field of Manual Testing and JavaScript programming bascic and I intend to gain professional experience in this directions.
 
 # Tools
 - JIRA
@@ -12,7 +12,7 @@ professional ISTQB training and practical training in the field of Manual Testin
 - SoapUI
 - Postman
 - VisualCode
-- Git
+- Git, Github
 
 # Tech skills
 - ISTQB knowledge
@@ -20,10 +20,9 @@ professional ISTQB training and practical training in the field of Manual Testin
 - DevTools
 - Creating Test Cases
 - Reporting bugs
-- Soap and API basics
-- Exploratory tests
+- Soap and API testing basics
 - Databases basics
-- JavaScript basics
+- JavaScript and HTML basics
 
 # Courses
 - [Postman: The Complete Guide - REST API Testing - UDEMY](https://www.udemy.com/course/postman-the-complete-guide/learn/lecture/9134152#overview)
@@ -52,14 +51,14 @@ professional ISTQB training and practical training in the field of Manual Testin
 - [Modifying tables](https://github.com/PrzemekHytros/Portfolio/blob/main/mySQL/modifying_tables.txt)
 - [Joining tables](https://github.com/PrzemekHytros/Portfolio/blob/main/mySQL/joining_tables.txt)
 
-# My REST API testing:
-- [Testing with POSTMAN: CRUD, Automatic tests](https://github.com/PrzemekHytros/Portfolio/tree/main/Rest-API)
+# My POSTMAN API testing works:
+- [Testing with POSTMAN: CRUD, Automatic tests, postman test scripts](https://github.com/PrzemekHytros/Portfolio/tree/main/Postman-API-testing)
 
-# My SOAP testing:
-- [Testing with SOAPUI](https://github.com/PrzemekHytros/Portfolio/tree/main/Soap)
+# My SOAPUI testing works:
+- [Testing with SOAPUI](https://github.com/PrzemekHytros/Portfolio/tree/main/SoapUI-testing)
 
-# JavaScript:
-- [My scripts and projects with JavaScript](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript)
+# My JavaScript and HTML projects:
+- [My scripts and projects with JavaScript and HTML](https://github.com/PrzemekHytros/Portfolio/tree/main/JavaScript-and-html-projects)
   
 
 
