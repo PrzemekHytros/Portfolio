@@ -52,7 +52,7 @@ professional ISTQB training and practical training in the field of Manual Testin
 - [Joining tables](https://github.com/PrzemekHytros/Portfolio/blob/main/mySQL/joining_tables.txt)
 
 # My POSTMAN API testing works:
-- [Testing with POSTMAN: CRUD, Automatic tests, postman test scripts](https://github.com/PrzemekHytros/Portfolio/tree/main/Postman-API-testing)
+- [Testing with POSTMAN: CRUD, Postman test scripts](https://github.com/PrzemekHytros/Portfolio/tree/main/Postman-API-testing)
 
 # My SOAPUI testing works:
 - [Testing with SOAPUI](https://github.com/PrzemekHytros/Portfolio/tree/main/SoapUI-testing)
