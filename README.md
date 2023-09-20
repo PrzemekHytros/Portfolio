@@ -2,9 +2,7 @@
 
 
 # About me
-Many years of experience in customer service and negotiations have provided me with a high level of
-interpersonal skills. Due to life changes I became interested in sofware testing. I have completed
-professional ISTQB training and practical training in the field of Manual Testing and JavaScript programming bascic and I intend to gain professional experience in this directions.
+Many years of working in the sales and purchasing departments have taught me a lot about the basics of business. However, I became interested in manual testing and programming and decided to take testing and front-end courses. I am constantly investing in my development and I am ready for increasingly difficult challenges to achieve my goal of working in the IT industry.
 
 # Tools
 - JIRA
