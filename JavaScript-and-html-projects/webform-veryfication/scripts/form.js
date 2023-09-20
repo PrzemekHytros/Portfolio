@@ -2,7 +2,7 @@ $(function() {
     $("#registrationForm").submit(function (event) {
     if (!$(this.name).val ()) {
         event.preventDefault();
-        alert("Podanie imienia jest wymagane.");
+        alert("Name is required.");
     }
     if (!$(this).find("input[name='gender']:checked").length) {
         event.preventDefault();
