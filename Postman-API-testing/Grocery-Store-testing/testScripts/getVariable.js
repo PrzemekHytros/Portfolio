@@ -1,0 +1,1 @@
+console.log(pm.collectionVariables.get('productId'));
