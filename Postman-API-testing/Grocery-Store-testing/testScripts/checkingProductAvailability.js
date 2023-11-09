@@ -1,3 +1,4 @@
+
 pm.test('At least one available product exists', () => {
     const response = pm.response.json();
 
@@ -13,5 +14,5 @@ pm.test('At least one available product exists', () => {
 
     console.log(response[0].id);
     pm.expect(product.id).to.be.a('number');
-    pm.collectionVariables.set('productId', product.id);
+    pm.environment.set('productId', product.id);
 })

@@ -1,1 +1,1 @@
-console.log(pm.collectionVariables.get('productId'));
+console.log(pm.environment.get('productId'));

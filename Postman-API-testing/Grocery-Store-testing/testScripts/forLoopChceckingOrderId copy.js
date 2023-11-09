@@ -5,7 +5,7 @@ pm.test('Created order is in the list', () =>{
     let isOrderIdInResponse = false;
     
     for ( i = 0; i < response.length; i++) {
-        if(response[i].id === pm.collectionVariables.get('orderId')) {
+        if(response[i].id === pm.environment.get('orderId')) {
             console.log('Found It!');
             isOrderIdInResponse = true;
         }

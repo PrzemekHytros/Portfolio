@@ -2,4 +2,4 @@ function getRandomNumber(maxValue) {
     return Math.floor(Math.random() * maxValue);
 }
 
-pm.collectionVariables.set('randomQuantity', getRandomNumber(14));
+pm.environment.set('randomQuantity', getRandomNumber(14));

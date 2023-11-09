@@ -43,7 +43,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n   \"clientName\": \"Postman on Valentin's computer\",\n   \"clientEmail\": \"valentin_test2@example.com\"\n}",
+							"raw": "{\n   \"clientName\": \"Przemyslaw Hytros\",\n   \"clientEmail\": \"przemyslawh@interia.pl\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -69,7 +69,7 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"console.log(typeof pm.collectionVariables.get('productId'));\r",
+									"\r",
 									"\r",
 									""
 								],
@@ -127,7 +127,7 @@
 									"\r",
 									"    console.log(response[0].id);\r",
 									"    pm.expect(product.id).to.be.a('number');\r",
-									"    pm.collectionVariables.set('productId', product.id);\r",
+									"    pm.environment.set('productId', product.id);\r",
 									"})\r",
 									"\r",
 									""
@@ -174,22 +174,10 @@
 							"listen": "test",
 							"script": {
 								"exec": [
+									"const response = pm.response.json();\r",
 									"\r",
-									"let people = [\r",
-									"\r",
-									"    {\r",
-									"        name: 'jamie',\r",
-									"        email: 'j@j.pl'\r",
-									"    },\r",
-									"    {\r",
-									"        name: 'federico',\r",
-									"        email: 'f@fed.pl'\r",
-									"    }\r",
-									"\r",
-									"];\r",
-									"\r",
-									"people.forEach((person) => {\r",
-									"    console.log(person.email);\r",
+									"pm.test('correct product was retrieved', () => {\r",
+									"    pm.expect(response.id).to.eql(pm.variables.get('productId'));\r",
 									"});\r",
 									""
 								],
@@ -238,7 +226,7 @@
 									"    \r",
 									"    const response = pm.response.json();\r",
 									"    pm.expect(response).to.haveOwnProperty('error');\r",
-									"    pm.expect(response.error).to.contain(pm.collectionVariables.get('orderId'));\r",
+									"    pm.expect(response.error).to.contain(pm.variables.get('orderId'));\r",
 									"});"
 								],
 								"type": "text/javascript"
@@ -282,7 +270,7 @@
 							"script": {
 								"exec": [
 									"const cartId = \"oUzea8wia4MI4Rc_jNjcj\";\r",
-									"pm.collectionVariables.set('cartId', cartId);"
+									"pm.environment.set('cartId', cartId);"
 								],
 								"type": "text/javascript"
 							}
@@ -373,8 +361,20 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"const cartId = \"KsmqURy2r_4GVMZnLLAiA\";\r",
-									"pm.collectionVariables.set('cartId', cartId);\r",
+									"\r",
+									"\r",
+									"\r",
+									"pm.test('Response has valid cartId', () => {\r",
+									"\r",
+									"    const response = pm.response.json();\r",
+									"    pm.expect(response).to.be.an('object');\r",
+									"    pm.expect(response).to.haveOwnProperty('cartId');\r",
+									"    pm.expect(response.cartId).to.be.a('string');\r",
+									"    \r",
+									"    console.log(response.cartId);\r",
+									"    pm.environment.set('cartId', response.cartId);\r",
+									"    \r",
+									"    })\r",
 									"\r",
 									"\r",
 									"\r",
@@ -413,6 +413,7 @@
 									"    pm.expect(response).to.haveOwnProperty('itemId');\r",
 									"    pm.expect(response.itemId).to.be.a('number');\r",
 									"    pm.expect(response.created).to.be.true;\r",
+									"    pm.environment.set('lastAddedItemID', response.itemId);\r",
 									"\r",
 									"    })"
 								],
@@ -483,6 +484,9 @@
 						}
 					],
 					"request": {
+						"auth": {
+							"type": "noauth"
+						},
 						"method": "GET",
 						"header": [
 							{
@@ -517,7 +521,7 @@
 									"    pm.expect(response).to.be.an('object');\r",
 									"    pm.expect(response.created).to.be.true;\r",
 									"    pm.expect(response.orderId).to.be.a('string');\r",
-									"    pm.collectionVariables.set('orderId', response.orderId);\r",
+									"    pm.environment.set('orderId', response.orderId);\r",
 									"    });\r",
 									"\r",
 									"\r",
@@ -633,12 +637,22 @@
 							"listen": "prerequest",
 							"script": {
 								"exec": [
+									"\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
 									"function getRandomNumber(maxValue) {\r",
 									"    return Math.floor(Math.random() * maxValue);\r",
 									"}\r",
 									"\r",
-									"\r",
-									"pm.collectionVariables.set('randomQuantity', getRandomNumber(14));"
+									"pm.environment.set('randomQuantity', getRandomNumber(14));"
 								],
 								"type": "text/javascript"
 							}
@@ -649,7 +663,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"quantity\": {{randomQuantity}}\n}",
+							"raw": "{\n    \"quantity\": {{lastAddedItemID}}\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -674,7 +688,7 @@
 								},
 								{
 									"key": "itemId",
-									"value": "{{lastAddedItemId}}"
+									"value": "{{lastAddedItemID}}"
 								}
 							]
 						}
@@ -1200,6 +1214,9 @@
 							"listen": "test",
 							"script": {
 								"exec": [
+									"if (pm.environment.name === 'Testing') {\r",
+									"\r",
+									"\r",
 									"pm.test(\"Status code is 400\", function() {\r",
 									"    pm.response.to.have.status(400);\r",
 									"\r",
@@ -1209,7 +1226,8 @@
 									"    const response = pm.response.json();\r",
 									"    pm.expect(response.error).to.eql(\"Invalid value for query parameter 'results'. Must be greater than 0.\");\r",
 									"});\r",
-									""
+									"\r",
+									"};"
 								],
 								"type": "text/javascript"
 							}
@@ -1279,11 +1297,6 @@
 		{
 			"key": "baseUrl",
 			"value": "https://simple-grocery-store-api.glitch.me"
-		},
-		{
-			"key": "accessToken",
-			"value": "Your Acces Token",
-			"type": "string"
 		},
 		{
 			"key": "cartId",
