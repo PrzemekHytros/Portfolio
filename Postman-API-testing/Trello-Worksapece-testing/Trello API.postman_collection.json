@@ -1,0 +1,836 @@
+{
+	"info": {
+		"_postman_id": "464f7bb3-7834-490e-8569-7ab8f3222c04",
+		"name": "Trello API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27368875",
+		"_collection_link": "https://grey-satellite-599128.postman.co/workspace/Przemek~7c3ea9cf-ccb2-4e69-b953-2035e735b31b/collection/27368875-464f7bb3-7834-490e-8569-7ab8f3222c04?action=share&source=collection_link&creator=27368875"
+	},
+	"item": [
+		{
+			"name": "Get all my boards",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test('Status is 200', () => {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "{{trello}}/1/members/me/boards?key={{trelloKey}}&token={{trelloToken}}",
+					"host": [
+						"{{trello}}"
+					],
+					"path": [
+						"1",
+						"members",
+						"me",
+						"boards"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{trelloKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{trelloToken}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Board",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test('Status is 200', () => {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test('Create boardId in Collection Variable', () => {\r",
+							"    const response = pm.response.json();\r",
+							"\r",
+							"    pm.collectionVariables.set('boardId', '65522e9651c1309d5f2e7799');\r",
+							"\r",
+							"})\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{trello}}/1/boards/?name=Learning Postman&key=473caf4636dd048776f4bb46e96a6277&token=ATTA946f0c88cc1e866574667be7b7940d3a022e70488fe074cc68125c165099617dCB3E4048",
+					"host": [
+						"{{trello}}"
+					],
+					"path": [
+						"1",
+						"boards",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Learning Postman"
+						},
+						{
+							"key": "key",
+							"value": "473caf4636dd048776f4bb46e96a6277"
+						},
+						{
+							"key": "token",
+							"value": "ATTA946f0c88cc1e866574667be7b7940d3a022e70488fe074cc68125c165099617dCB3E4048"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get single Board",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test('Status is 200', () => {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "{{trello}}/1/boards/:id?key={{trelloKey}}&token={{trelloToken}}",
+					"host": [
+						"{{trello}}"
+					],
+					"path": [
+						"1",
+						"boards",
+						":id"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{trelloKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{trelloToken}}"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "{{boardId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create TODO list",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test('Status is 200', () => {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test('Create listId in Collection Variable', () => {\r",
+							"    const response = pm.response.json();\r",
+							"\r",
+							"    pm.collectionVariables.set('todoListId', response.id);\r",
+							"\r",
+							"})\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{trello}}/1/lists/?key={{trelloKey}}&token={{trelloToken}}&name=TODO&idBoard={{boardId}}",
+					"host": [
+						"{{trello}}"
+					],
+					"path": [
+						"1",
+						"lists",
+						""
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{trelloKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{trelloToken}}"
+						},
+						{
+							"key": "name",
+							"value": "TODO"
+						},
+						{
+							"key": "idBoard",
+							"value": "{{boardId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create DONE list",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test('Status is 200', () => {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test('Create listId in Collection Variable', () => {\r",
+							"    const response = pm.response.json();\r",
+							"\r",
+							"    pm.collectionVariables.set('doneListId', response.id);\r",
+							"\r",
+							"})\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{trello}}/1/lists/?key={{trelloKey}}&token={{trelloToken}}&name=DONE&idBoard={{boardId}}",
+					"host": [
+						"{{trello}}"
+					],
+					"path": [
+						"1",
+						"lists",
+						""
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{trelloKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{trelloToken}}"
+						},
+						{
+							"key": "name",
+							"value": "DONE"
+						},
+						{
+							"key": "idBoard",
+							"value": "{{boardId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create card",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('Create card id in Collection Variable', () => {\r",
+							"    const response = pm.response.json();\r",
+							"\r",
+							"    pm.collectionVariables.set('cardId', response.id);\r",
+							"\r",
+							"})"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{trello}}/1/cards?name=Sign-up for Trello&key={{trelloKey}}&token={{trelloToken}}&idList={{todoListId}}",
+					"host": [
+						"{{trello}}"
+					],
+					"path": [
+						"1",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Sign-up for Trello"
+						},
+						{
+							"key": "key",
+							"value": "{{trelloKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{trelloToken}}"
+						},
+						{
+							"key": "idList",
+							"value": "{{todoListId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Move card to DONE list",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{trello}}/1/cards/:id?key={{trelloKey}}&token={{trelloToken}}&idList={{doneListId}}",
+					"host": [
+						"{{trello}}"
+					],
+					"path": [
+						"1",
+						"cards",
+						":id"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{trelloKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{trelloToken}}"
+						},
+						{
+							"key": "idList",
+							"value": "{{doneListId}}"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "{{cardId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a Board",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test('Status is 200', () => {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "{{trello}}/1/boards/:id?key={{trelloKey}}&token={{trelloToken}}",
+					"host": [
+						"{{trello}}"
+					],
+					"path": [
+						"1",
+						"boards",
+						":id"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{trelloKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{trelloToken}}"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "{{boardId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get deleted board",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test('Status is 404', () => {\r",
+							"    pm.response.to.have.status(404);\r",
+							"\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{trello}}/1/boards/:id?key={{trelloKey}}&token={{trelloToken}}",
+					"host": [
+						"{{trello}}"
+					],
+					"path": [
+						"1",
+						"boards",
+						":id"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{trelloKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{trelloToken}}"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "{{boardId}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all my Lists",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test('Status is 200', () => {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "{{trello}}/1/boards/:id/lists?key={{trelloKey}}&token={{trelloToken}}",
+					"host": [
+						"{{trello}}"
+					],
+					"path": [
+						"1",
+						"boards",
+						":id",
+						"lists"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{trelloKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{trelloToken}}"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "649e8fd2882ba7f609e6e473"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all my Cards",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test('Status is 200', () => {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "{{trello}}/1/boards/:id/cards?key={{trelloKey}}&token={{trelloToken}}",
+					"host": [
+						"{{trello}}"
+					],
+					"path": [
+						"1",
+						"boards",
+						":id",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{trelloKey}}"
+						},
+						{
+							"key": "token",
+							"value": "{{trelloToken}}"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "649e8fd2882ba7f609e6e473"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create single Card",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test('Status is 200', () => {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{trello}}/1/cards?idList=64c8d4db9614ba49d70bc2e3&key=473caf4636dd048776f4bb46e96a6277&token=ATTA946f0c88cc1e866574667be7b7940d3a022e70488fe074cc68125c165099617dCB3E4048&name=Sign-up for Trello",
+					"host": [
+						"{{trello}}"
+					],
+					"path": [
+						"1",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "idList",
+							"value": "64c8d4db9614ba49d70bc2e3"
+						},
+						{
+							"key": "key",
+							"value": "473caf4636dd048776f4bb46e96a6277"
+						},
+						{
+							"key": "token",
+							"value": "ATTA946f0c88cc1e866574667be7b7940d3a022e70488fe074cc68125c165099617dCB3E4048"
+						},
+						{
+							"key": "name",
+							"value": "Sign-up for Trello"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update a Card",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test('Status is 200', () => {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{trello}}/1/cards/:id?idList=64c8d4e7154dfb1544ba97ac&key=473caf4636dd048776f4bb46e96a6277&token=ATTA946f0c88cc1e866574667be7b7940d3a022e70488fe074cc68125c165099617dCB3E4048&name=Sign-up for Trello",
+					"host": [
+						"{{trello}}"
+					],
+					"path": [
+						"1",
+						"cards",
+						":id"
+					],
+					"query": [
+						{
+							"key": "idList",
+							"value": "64c8d4e7154dfb1544ba97ac"
+						},
+						{
+							"key": "key",
+							"value": "473caf4636dd048776f4bb46e96a6277"
+						},
+						{
+							"key": "token",
+							"value": "ATTA946f0c88cc1e866574667be7b7940d3a022e70488fe074cc68125c165099617dCB3E4048"
+						},
+						{
+							"key": "name",
+							"value": "Sign-up for Trello"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "64ca2d8cd7fafc9478ecbbb0"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "boardId",
+			"value": ""
+		},
+		{
+			"key": "todoListId",
+			"value": ""
+		},
+		{
+			"key": "doneListId",
+			"value": ""
+		},
+		{
+			"key": "cardId",
+			"value": ""
+		}
+	]
+}
