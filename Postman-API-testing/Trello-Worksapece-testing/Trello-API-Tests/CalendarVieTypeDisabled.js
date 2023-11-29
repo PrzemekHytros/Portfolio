@@ -1,6 +1,6 @@
-pm.test('Caledar view type is disabled', () => {
-
+pm.test('Calendar view type is disabled', () => {
     const response = pm.response.json();
-    console.log(response);
-    pm.expect(response.prefs.switcherViews[2].enabled).to.be.eql(false);
+    const calendarView = response.prefs.switcherViews.find(view => view.viewType === 'Calendar');
+    pm.expect(calendarView).to.be.an('object');
+    pm.expect(calendarView.enabled).to.be.false;
 });
