@@ -1,0 +1,274 @@
+{
+	"info": {
+		"_postman_id": "73cbf182-018d-400f-a612-6a2133d351d8",
+		"name": "Complex assertions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27368875",
+		"_collection_link": "https://grey-satellite-599128.postman.co/workspace/Przemek~7c3ea9cf-ccb2-4e69-b953-2035e735b31b/collection/27368875-73cbf182-018d-400f-a612-6a2133d351d8?action=share&source=collection_link&creator=27368875"
+	},
+	"item": [
+		{
+			"name": "1 - Nested object",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const response = pm.response.json();",
+							"",
+							"console.log(response.other[\"social-media\"]);",
+							"",
+							"pm.test(\"Person is Jane\", () => {",
+							"    pm.expect(response.name).to.eql(\"Jane\");",
+							"    pm.expect(response.age).to.eql(29);",
+							"    pm.expect(response.other.email).to.eql(\"jane@example.com\");",
+							"    pm.expect(response.other[\"social-media\"][1]).to.include(\"Instagram\");",
+							"    ",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://run.mocky.io/v3/181cac3a-676a-4d29-982c-bf2c0a5ea12d",
+					"protocol": "https",
+					"host": [
+						"run",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v3",
+						"181cac3a-676a-4d29-982c-bf2c0a5ea12d"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "1 - Nested object",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://run.mocky.io/v3/181cac3a-676a-4d29-982c-bf2c0a5ea12d",
+							"protocol": "https",
+							"host": [
+								"run",
+								"mocky",
+								"io"
+							],
+							"path": [
+								"v3",
+								"181cac3a-676a-4d29-982c-bf2c0a5ea12d"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 20 Nov 2023 12:09:39 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "180"
+						},
+						{
+							"key": "Sozu-Id",
+							"value": "01HFPA5QR5BVR7GYJAM6SPGGA1"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"Jane\",\n    \"age\": 29,\n    \"other\": {\n        \"email\": \"jane@example.com\",\n        \"social-media\": [\n            \"Facebook\",\n            \"Instagram\"\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "2 - Simple array",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const response = pm.response.json();",
+							"",
+							"// console.log(response.other[\"social-media\"][1]);",
+							"",
+							"const person = response[0];",
+							"",
+							"pm.test(\"Person is Jane\", () => {",
+							"    pm.expect(person.name).to.eql(\"Jane\");",
+							"    pm.expect(person.age).to.eql(29);",
+							"    pm.expect(person.other.email).to.eql(\"jane@example.com\");",
+							"    pm.expect(person.other[\"social-media\"]).to.include(\"Instagram\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://run.mocky.io/v3/4c752a4c-6d89-4961-bf6f-5b2f595d6413",
+					"protocol": "https",
+					"host": [
+						"run",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v3",
+						"4c752a4c-6d89-4961-bf6f-5b2f595d6413"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "2 - Simple array",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://run.mocky.io/v3/4c752a4c-6d89-4961-bf6f-5b2f595d6413",
+							"protocol": "https",
+							"host": [
+								"run",
+								"mocky",
+								"io"
+							],
+							"path": [
+								"v3",
+								"4c752a4c-6d89-4961-bf6f-5b2f595d6413"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 20 Nov 2023 12:12:15 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "228"
+						},
+						{
+							"key": "Sozu-Id",
+							"value": "01HFPAAFPGPJ8E06CVY1CETY1B"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"name\": \"Jane\",\n        \"age\": 29,\n        \"other\": {\n            \"email\": \"jane@example.com\",\n            \"social-media\": [\n                \"Facebook\",\n                \"Instagram\"\n            ]\n        }\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "3 - Complex array",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const response = pm.response.json();",
+							"",
+							"// console.log(response.other[\"social-media\"][1]);",
+							"",
+							"const person = response.find(item => item.name === \"Jane\");",
+							"",
+							"console.log(person);",
+							"",
+							"",
+							"pm.test(\"Person is Jane\", () => {",
+							"    pm.expect(person.name).to.eql(\"Jane\");",
+							"    pm.expect(person.age).to.eql(29);",
+							"    pm.expect(person.other.email).to.eql(\"jane@example.com\");",
+							"    pm.expect(person.other[\"social-media\"]).to.include(\"Instagram\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://run.mocky.io/v3/b3194459-992f-4ba7-88a3-8d97ea664edc",
+					"protocol": "https",
+					"host": [
+						"run",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v3",
+						"b3194459-992f-4ba7-88a3-8d97ea664edc"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "3 - Complex array",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://run.mocky.io/v3/b3194459-992f-4ba7-88a3-8d97ea664edc",
+							"protocol": "https",
+							"host": [
+								"run",
+								"mocky",
+								"io"
+							],
+							"path": [
+								"v3",
+								"b3194459-992f-4ba7-88a3-8d97ea664edc"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 20 Nov 2023 12:14:30 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "650"
+						},
+						{
+							"key": "Sozu-Id",
+							"value": "01HFPAEKXPM3BDTV6X2V3MHM9B"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"name\": \"John\",\n        \"age\": 31,\n        \"other\": {\n            \"email\": \"john@example.com\",\n            \"social-media\": [\n                \"Twitter\"\n            ]\n        }\n    },\n    {\n        \"name\": \"Jane\",\n        \"age\": 29,\n        \"other\": {\n            \"email\": \"jane@example.com\",\n            \"social-media\": [\n                \"Facebook\",\n                \"Instagram\"\n            ]\n        }\n    },\n    {\n        \"name\": \"Judy\",\n        \"age\": 35,\n        \"other\": {\n            \"email\": \"judy@example.com\",\n            \"social-media\": [\n                \"LinkedIn\",\n                \"Pinterest\"\n            ]\n        }\n    }\n]"
+				}
+			]
+		}
+	]
+}
