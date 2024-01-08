@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
+@media  only screen and (max-width: 800px) {
+    
+
+
+    #header .logo span
+    {
+        display: block;
+    }
+    
+
+    #header {
+    position: relative;
+    height: 30%;
+    padding: 0px;
+    margin-bottom: 20px;
+
+    }
+
+    #header .logo{
+    color: #094b65;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+
+
+
+    /*--------Mobile Menu ------*/
+
+    #header nav ul {
+        display: none
+    }
+
+
+
+    .hamburger {
+        position: relative;
+        display: block;
+        width: 35px;
+        cursor: pointer;
+        margin-right: 10px;
+    
+        appearance: none;
+        background: none;
+        outline: none;
+        border: none;
+    }
+    
+    .hamburger .bar, .hamburger:after, .hamburger:before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: #094b65;
+        margin: 6px 0px;
+        transition: 0.4s;
+    }
+    
+    .hamburger.is-active:before {
+        transform: rotate(-45deg) translate(-8px, 6px);
+    }
+    
+    .hamburger.is-active:after {
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+    
+    
+    .hamburger.is-active .bar {
+        opacity: 0;
+    }
+
+
+    .mobile-nav {
+        position: fixed;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        min-height: 100%;
+        z-index: 98;
+        display: block;
+        background-color: #eac371;
+        padding-top: 200px;
+        transition: 0.4s;
+        font-family: 'Playfair Display', serif;
+
+    }
+
+    .mobile-nav.is-active {
+        left: 0;
+
+    }
+
+
+    
+   
+
+    .mobile-nav a {
+        display: block;
+        color: #649eb4;
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto 16px;
+        text-align: center;
+        text-decoration: none;
+        padding: 12px 16px;
+        background-color: #fff;
+    }
+
+    .mobile-nav a:hover {
+       background-color: #094b65;
+    }
+
+
+
+
+
+
+/*-----------------------------------*/
+
+    
+    .sec {
+    padding: 10px;
+    }
+
+    section::before {
+    display: none;
+    }
+
+    #btn {
+        display: none;
+    }
+
+    section {
+        display: none;
+    }
+
+    .sec #autor{
+        max-width: 300px;
+        padding-top: 10px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+    
+}
+
+@media  only screen and (max-width: 460px) {
+
+    #header ul {
+        top: 35vh;
+        width: 100%; 
+    }
+
+    .autor {
+        max-width: 200px;
+    }
+
+
+}

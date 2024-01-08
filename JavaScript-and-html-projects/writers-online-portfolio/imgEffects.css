@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+.author {
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    min-width: 230px;
+    max-width: 450px;
+    width: 100%;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    background: #000;
+    float: left;
+    border-radius: 5%;
+  }
+  
+  .author *,
+  .author:before,
+  .author:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  
+  .author img {
+    max-width: 100%;
+    backface-visibility: hidden;
+    vertical-align: top;
+    
+  }
+  
+  .author:before,
+  .author:after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    content: '';
+    background-color: #fff;
+    z-index: 1;
+    opacity: 0;
+  }
+  
+  .author:before {
+    width: 0;
+    height: 1px;
+  }
+  
+  .author:after {
+    height: 0;
+    width: 1px;
+  }
+  
+  .author figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 15px 20px;
+  }
+  
+  .author h3,
+  .author h4 {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: normal;
+    opacity: 0;
+  }
+  
+  .author h4 {
+    font-size: .8em;
+    text-transform: uppercase;
+  }
+  
+  .author a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .author:hover img,
+  .author.hover img {
+    zoom: 1;
+    filter: alpha(opacity=40);
+    -webkit-opacity: 0.4;
+    opacity: 0.4;
+  }
+  
+  .author:hover:before,
+  .author.hover:before,
+  .author:hover:after,
+  .author.hover:after {
+    opacity: 1;
+    -webkit-transition-delay: 0.25s;
+    transition-delay: 0.25s;
+  }
+  
+  .author:hover:before,
+  .author.hover:before {
+    width: 60px;
+  }
+  
+  .author:hover:after,
+  .author.hover:after {
+    height: 60px;
+  }
+  
+  .author:hover h3,
+  .author.hover h3,
+  .author:hover h4,
+  .author.hover h4 {
+    opacity: 1;
+  }
+  
+  .author:hover h3,
+  .author.hover h3 {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+  }
+  
+  .author:hover h4,
+  .author.hover h4 {
+    -webkit-transition-delay: 0.35s;
+    transition-delay: 0.35s;
+  }
+
+ 

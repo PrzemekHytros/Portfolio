@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&display=swap');
+
+/* Dodaj nowe style dla formularza w divie o klasie "sec" */
+.sec .my-container {
+    width: 100%;
+    max-width: 800px; /* Dostosuj maksymalną szerokość według potrzeb */
+    margin: auto;
+}
+
+.sec .my-container form {
+    width: 100%;
+}
+
+.sec .my-container label,
+.sec .my-container textarea,
+.sec .my-container input {
+    width: 100%;
+    color: white;
+    font-family: 'Scope One', serif; 
+    font-size: 1.2em;
+}
+
+/* Reszta styli pozostaje bez zmian */
+.my-container h2 {
+    text-align: center;
+}
+
+.my-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-container label {
+    margin-bottom: 8px;
+}
+
+.my-container input,
+.my-container textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.my-container button {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Scope One', serif;
+    font-size: 1.2em;
+}
+
+.my-container button:hover {
+    background-color: #094b65;
+}
