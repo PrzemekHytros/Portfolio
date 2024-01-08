@@ -2,7 +2,7 @@
 
 
 # Brief Description
-The project is a responsive author's website, created using HTML, CSS, and JavaScript, dedicated to a writer specializing in creating books for children and young adults. The goal of the website is to showcase the author's work, biography, and provide an easy way to get in touch.
+Project is a responsive author's website, created using HTML, CSS, and JavaScript, dedicated to a writer specializing in creating books for children and young adults. The goal of the website is to showcase the author's work, biography, and provide an easy way to get in touch.
 
 # Strong Points of the Project:
 
