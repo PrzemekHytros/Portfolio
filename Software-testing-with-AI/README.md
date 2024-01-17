@@ -3,3 +3,5 @@
 - Creating user stories
 
 - Creating test cases
+
+- Generating Given, When and Then scenarios
